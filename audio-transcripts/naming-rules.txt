@@ -1,1 +1,1 @@
-<podcast-title-without-spaces>_<Date-of-publication YYYY-MM-DD>.mp4
+<podcast-title-without-spaces>_<podcast-episode-title-without-spaces>_<Date-of-publication YYYY-MM-DD>_<extra-information>.mp4
