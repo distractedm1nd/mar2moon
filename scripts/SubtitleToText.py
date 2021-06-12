@@ -44,3 +44,16 @@ def convert_subtitle_file(subs_file, out_file, remove_new_lines=True):
                     lines.append(line)
 
         newfile.write("".join(lines))
+
+
+def remove_new_lines_from_file(file, output_file=""):
+    if output_file == "":
+        output_file = file[:-4] + "_text-block" + ".txt"
+    
+    with open(file) as oldfile, open(output_file, 'w') as newfile:
+        lines = []
+
+        for line in oldfile:
+            lines.append(line.rstrip("\n") + " ")
+
+        newfile.write("".join(lines))
