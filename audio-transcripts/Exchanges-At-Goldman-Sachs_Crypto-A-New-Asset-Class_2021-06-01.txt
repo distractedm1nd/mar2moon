@@ -1,0 +1,491 @@
+Exchanges at Goldman Sachs
+Crypto: A New Asset Class?
+Michael Novogratz, Co-founder and CEO, Galaxy Digital Holdings
+Nouriel Roubini Professor of Economics, New York University
+Stern School of Business
+Mathew McDermott, Global Head of Digital Assets, Goldman Sachs
+Host, Allison Nathan
+Recorded in several sessions throughout April 2021
+Allison Nathan: This is Exchanges at Goldman Sachs where we
+discuss developments currently shaping markets, industries, and
+the global economy. I'm Allison Nathan, senior strategist in
+Goldman Sachs Research and creator and editor of the firm's "Top
+of Mind" report which focuses on macroeconomic issues on the
+minds of our clients.
+In this episode, we focus on a topic that seems to be everywhere
+right now -- crypto. Cryptocurrency prices have remained
+extremely volatile on news about regulatory crackdowns,
+environmental concerns, and heightened tax scrutiny. But this
+latest bout of volatility has occurred even as interest in
+crypto assets from credible investors has been rising and legacy
+financial institutions, including ourselves, have been launching
+new crypto products and services. Amid the recent volatility,
+we're focusing on whether crypto assets can be considered an
+institutional asset class.
+I first turn to Mike Novogratz, co-founder and CEO of Galaxy
+Digital Holdings, which is active in crypto investing and
+trading, asset management, and venture financing, to discuss why
+the current period of volatility is different from past boomand-bust cycles for crypto assets.
+You've been very invested and interested in crypto for a while
+now. And it's had its fits and starts. Think about 2017/2018.
+What made this time different?
+Mike Novogratz: 2017-2018 was a classic speculative mania.
+It was the first global speculative mania we ever had. It was
+the first surely retail-driven speculative mania. And it was
+blind excitement. It's not that we don't see excess now or
+knucklehead Twitter comments now or cheerleading and tribalism
+now. We do. But back then that's all we saw. And to be fair,
+crypto market cap cratered 98.5%.
+But out of that grew a much smarter investor base. An investor 
+
+
+base willing to differentiate between stores of value and
+centralized finance and other stable coins or payment systems.
+All these different use cases for crypto. And so we started
+building an investment process as a community that had a little
+more logic behind it.
+But more importantly, during that downturn in '18-19, there were
+not less people coming into this space but more. More people
+being hired. And the infrastructure for people to feel
+comfortable, the custody, the security got built to bring
+institutions in. And so it's different this time because we've
+hit the critical mass of institutions coming in. The fact that
+PayPal and Square and -- you name the tech company -- getting
+more and more engaged broadly stamps loud and clear this is now
+an asset class.
+There's still a lot of volatility. We will watch people in and
+out, but it's not going away. And so after that crash, there
+were most people that thought, "Oh, it was tulips. It was a
+flash in the pan." But the guys that knew the space, knew that
+the people building it perceived this as a mission from God, you
+know? To quote the Blues Brothers. This is a purpose-driven
+mission for most of the core crypto people. It is we want to
+rebuild the financial market infrastructure in a way that's more
+transparent, that's more egalitarian, that doesn't rely on
+governments who continue to make bad decisions with our
+finances.
+And because of that core, bitcoin can't go to zero. It can go
+lower, but there is a group of people that will never sell, that
+fundamentally believe in this ecosystem. And the Ethereum
+encystment has the same thing.
+Allison Nathan: But do you think that the crypto ecosystem
+can be successful if it isn't intertwined with the traditional
+financial system?
+Mike Novogratz: Listen, no, right? There's a huge
+symbiotic relationship between them. The Galaxy advisor model
+is a really good model. A lot of people out there don't have
+time to learn to become investors. They're artists. They're
+teachers. They're firemen. They're police officers. They run
+businesses. That's why they hire experts. And so pulling the
+experts in to understand this space I think is a wonderful
+thing. It's turning traditional financial advisors, asset
+managers into crypto preachers, right? They're selling the
+story, and so they're bringing people into the tent. 
+
+
+
+
+
+Listen, payments is going to be a really, really interesting
+battleground because we have existing payment systems, right?
+The money transfer business has huge amounts at high margin.
+That's business banks don't want to lose, but that business is
+under threat by these new payment systems. They're faster,
+they're more transparent, and they're cheaper. And so
+Facebook's coming out with their dollar-based payment system.
+The Chinese government's coming out with theirs. And at one
+point, phones that are going to have crypto wallets are going to
+replace bank accounts. And so banks are going to have to pivot,
+but the game is kind of just starting. The competition to see
+who dominates payments. That's one lane.
+Exchanges is another lane. Derivative markets is another lane.
+The real question is: How fast will banks iterate and compete?
+Allison Nathan: I then asked Novogratz if it's this promise
+of revolutionizing payments that's driving investor interest in
+bitcoin and other cryptos or if their fundamental value more
+broadly lies elsewhere.
+Mike Novogratz: Bitcoin's not going to be payments. The
+system really isn't set up for payments. It's not fast enough
+for thousands and thousands of transactions a second. They like
+to say, now you're going to start buying your Diet Cokes or your
+restaurant bills in gold. Like, no. You're going to buy them
+in dollars if you're an American. And you're going to buy them
+in euros if you're European. But real soon I'm going to send my
+sister in Palm a dollar stable point and we'll move money around
+like this for free.
+Allison Nathan: Unrelated to bitcoin, the asset a lot of
+people are owning right now.
+Mike Novogratz: Yes, but Ethereum's going higher because
+most of this stuff is going to be built on the Ethereum network.
+And so Ethereum is going to get priced like a network. The more
+people that use it, the more stuff that gets built on it, the
+higher the price will go. So you've got payments being built on
+it, you've got defi being built on it, and you've got NFTs being
+built on it. So the three biggest moves in the crypto ecosystem
+are mostly being built on Ethereum. Not only Ethereum but
+mostly.
+Allison Nathan: So what is the value proposition of bitcoin
+then? Why should anyone buy bitcoin? 
+
+
+Mike Novogratz: Bitcoin is the most distributed asset in
+the history of the world outside of the dollar. 140 million
+people own a piece of bitcoin. And so it's widely distributed,
+and it's a uniform store value. There are very few uniform
+store values. Gold is uniform store. There are very few
+others. It's easily stored. It's much easier to store bitcoin
+than it is to store gold. Go to Ft. Knox and look at how the
+security they have around Ft. Knox. And so it's a better
+version of an old thing.
+What's unique about stores of value is they're social
+constructs. It has value because we say it has. There has
+never been a more successful brand created in 12 years by a
+community. It was like they floated the baby in the river, and
+the community raised the baby and it's now worth around $1
+trillion. The world has voted that they believe this is a store
+value. They just have. And a lot of people will take stubborn
+arguments, but every single bank we know of is building a wealth
+channel. There are 14 PTFs in line at the SEC. Every tech
+company is building it into their wallet and interface.
+And so one of the reasons everyone got into bitcoin, same reason
+they got into gold, is we've got a macro backdrop that is tailor
+made for it. What the market is telling you and what people are
+telling you is they are worried that we have an unsustainable
+balance of monetary and fiscal. That's not going away anytime
+soon given the political landscape of the inequality that we
+have, right? Do you think we should pay for college for people
+that make less than $100,000? More and more Americans are
+saying yes. This experiment that Biden just did with half of
+the 1.9 trillion going directly to people that needed it is
+being really well received. UBI or some version of UBI is
+coming. We might not call it UBI, but we're going to tax
+capital and we're going to give it more to labor. And that in
+general is not fiscal improving. But there's not a political
+imperative to say "stop spending money."
+The treasury department and the government is financing
+everything we want to spend, and that's happening in countries
+all over the world. So we had bad deficits before COVID. Now
+we have deficits that are insane. So as long as that macro
+backdrop, that political backdrop is giving us a tailwind and
+the market is being adopted, you're crazy to get out.
+Allison Nathan: Don't you think people are buying bitcoin
+because it's going up? 
+
+
+
+
+
+Mike Novogratz: People in general are momentum investors.
+All great fortunes on this planet have been made in trend. I
+learned that from Paul Jones. This is a mega bull trend.
+Bitcoin adoption and the macro behind it is in trend.
+Allison Nathan: I next turned to Matthew McDermott, Goldman
+Sachs's global head of digital assets, to understand why and how
+Goldman Sachs is reengaging in crypto assets and what's driving
+client interest in the space.
+Why now for a new launch into the space? And what's different
+from the past?
+Matthew McDermott: I would say, pure and simple, client
+demand. When we'd originally explored this space in 2017-2018
+where we had aspirations to create our own digital custody
+offering and have our own trading desk, the price action was
+exclusively retail led. And what's different this time is the
+institutional demand interest coupled with very strong demand
+across the wealth management franchise. Plus an evolution
+across crypto landscape with the broader product offering,
+better risk management, better execution, better digital
+custody. This has just made it all a little bit easier for
+institutions to digest and ultimately at least understand how
+they can get access.
+Allison Nathan: What is driving that client interest? And
+does it differ between the types of clients you speak to?
+Matthew McDermott: Yeah, I mean, that's a really good
+question. And I think it does vary from one client type to
+another. It's that to say at this stage the people who we are
+talking to -- and believe me, it's an extensive number across
+the different client types -- it's more a case of how can we get
+access, how can we learn more as opposed to what is bitcoin,
+what are cryptocurrencies. So we look at asset managers' macro
+funds. It's more in the context of does this fit into their
+portfolios. And if they believe that it does, what percentage
+in their mind makes sense? And so there's kind of discussions
+in and around that. Is it less than 1%? 2%? 3%? More? And
+then the question becomes: How can we get access to either the
+physical or exposure through some other product?
+From a hedge fund perspective, I would say they're more active.
+One of the key drivers from their perspective is the structural
+liquidity play inherent in the market. And what I mean by that 
+
+is you can go long either the physical or an instrument that
+gives you access on the spot basis to the underlying, so to
+bitcoin, and then shorting the future. And there is this
+liquidity premium that you can pick up this basis because the
+market is still quite fragmented. It's still quite hard for
+institutions to get access. The [UNINTEL] basis has fluctuated
+quite considerably over the last 3 to 6 months. And so that's
+been a structure of choice, the hedge funds.
+And then if you migrate along to corporate treasurers, the
+question is even slightly different from the other two. The
+question they're asking is should they be investing on their
+balance sheet in bitcoin? You know, jurisdiction? Where
+there's negative interest rates? And there's this continual
+fear of asset devaluation just given the monetary and fiscal
+policy right now. People are really seriously thinking about
+that. And so rather than paying to keep your cash on deposit or
+paying to hold a government bond, having some portion of your
+balance sheet in bitcoin may make sense.
+And so we have spoken to an awful lot of different corporates on
+that. I still think that it's still limited in terms of the
+number who have actually kind of executed, but there's
+definitely a lot of discussion and debate around that.
+The other question that the corporate treasurers ask is: Is
+bitcoin a payment mechanism? Should we be thinking about it in
+that context? But PayPal talk about being able to use bitcoin
+to actually pay for items, but the reality is Paxos is actually
+behind the scenes converting bitcoin into fiat which is then
+paid to the merchants. And so just given some of the inherent
+inefficiencies in the bitcoin blockchain in terms of its ability
+to process X number of transactions each second, I think the
+payment mechanism is probably a weaker argument.
+For wealth management clients, I think it's fair to say that
+that cohort, which is your high net worth individuals, your
+family offices, a certain proportion already are very active in
+this space, and they tend to lead the way. It's bitcoin
+obviously, but also they're very actively looking at other
+cryptocurrencies as they think about the broader value that this
+space can bring. And in the context of things like Ethereum,
+we're looking at the whole decentralized finance and looking how
+that can really transform the financial markets.
+Allison Nathan: There does seem to be a lot of debate today
+about whether or not cryptos are now an asset class. Do you 
+
+
+
+have that discussion with clients? Do you think they're
+thinking about it in that way?
+Matthew McDermott: More clients now are thinking of it in the
+context of being a new asset class. It is not that often you
+get to witness the emergence of a new asset class. It does have
+its very own idiosyncratic risk. Some of that's down to the
+fact that it's still relatively new. It's in this adoption
+phase. And when you look at how it's correlated to other asset
+classes, it doesn't behave as perhaps one would expect, but more
+and more people are gravitating towards the fact that it
+probably is a new asset class.
+Allison Nathan: But not everyone sees cryptocurrencies as a
+new asset class. I also spoke with Nouriel Roubini, professor
+of economics at NYU's Stern School of Business, who is deeply
+skeptical about the prospect of crypto assets serving as
+currencies or as assets at all.
+You think that bitcoin, perhaps other crypto assets more broadly
+are in a bubble. Why?
+Nouriel Roubini: First of all, I think that calling them
+cryptocurrencies is a misnomer. You know, anybody who knows
+anything about money and monetary theory knows that for
+something to be a currency it has to be a unit of account. But
+nothing is pricing bitcoin. There has to be a scalable and
+widely used means of payment. With bitcoin, you can only do
+[UNINTEL] transaction per second. It's not the stable store of
+value for goods and services. If you have to buy goods and
+services, your currency cannot change its price relative to
+those goods and services by 10 or 20% overnight. It has to be
+stable. Even in a crypto conference I attended don't accept
+bitcoin as a payment because your entire profit margin, say, 15-
+20%, can be wiped out overnight.
+The other characteristic of a money is that you have to have a
+single numerator in order to be able to compare the relative
+price of different goods. But in the crypto world, you have
+thousands of tokens and of currencies. And in principle, each
+one of them is to be used to buy different goods and service.
+It's a little like going back to barter. I mean, even The
+Flintstones cartoon had a more efficient monetary system because
+they were using shells. By using shells, you can compare the
+relative price of a Coca-Cola and a Pepsi cola. So calling them
+currencies is a misnomer. 
+
+
+Now, people say maybe they're not currencies, but they are going
+to be assets. But let's think about what's an asset. Normally
+we think of an asset as something that has a fundamental value.
+So say a stock gives you a dividend. And the discounted value
+of those dividends gives you some fundamental value. If you
+provide a loan, you get interest on that loan. If you have a
+bond, you get a coupon. If you have real estate, you get the
+rent. If you have commodities, you have all the services of
+that commodity.
+Now, take something like gold that doesn't have an income.
+Historically, it has been used in industry. It has been used as
+jewelry. It has been historically a stable store of value
+against a variety of tail risk -- inflation, debasement of
+currency, financial crises, political risk, geopolitical risk,
+you name it. Now take bitcoin, let alone thousands of these
+other cryptocurrencies, bitcoin doesn't have income, doesn't
+have any use. As I said, it's not a means of payment that is in
+any formal way scalable. It doesn't have utility. When
+something has a fundamental value and that price is well above
+the fundamental value, we call it a bubble. But in this case,
+we don't even know what's the fundamental value. So in that
+sense to me, it looks like a bubble.
+Allison Nathan: But given the macro backdrop of
+expansionary policy from both the government and the Fed that's
+raised concerns about higher inflation, I asked Roubini why
+crypto assets which don't have exposure to currency debasement
+can't at least provide an inflation hedge for investors. Here's
+his answer.
+Nouriel Roubini: So people say that bitcoin has gone up
+because there is a fear of debasement of fiat currency. Then
+actually inflation is going higher. The dollar has started to
+weaken. Break evens are now above 2. And vol prices went up.
+The bitcoin has gone up by ten fold, but I don't think that the
+explanation for bitcoin rising by ten fold can be explained by
+the fear of debasement of fiat currency. There must be
+something else.
+Bitcoin cannot be debased because there is a cryptographic rule
+that determines how much its supply is going to go up, and there
+is a limit of 21 million. But I could create something else
+that also has a limited supply, speaking about the debasement of
+fiat currency. It took 100 years for a dollar to reduce its
+value in real terms by 90%. In 2018, it took 12 months for
+thousands literally of the cryptocurrency losing 97% of their 
+
+
+value in one year, not in 100 years. So, you know, am I worried
+about inflation? Yes. But there is a wide range of assets I
+think that historically have been much more reliable hedges
+against inflation. You know, oil, energy, commodities in
+general, mining stocks, gold, tapes, inflation adjusted with
+other forms of inflationary index bonds. Under some conditions
+even public equities and real estate.
+And by the way, whenever there is a risk of episodes people say
+bitcoin is a hedge against risk off. That's not true. It's
+actually highly [UNINTEL]. For example, during the FebruaryMarch shock of the [UNINTEL] of COVID, US equity went down about
+35%. Bitcoin went down by about 60%. And other top ten
+cryptocurrencies went down even more. So when times are bad,
+crypto assets don't go up, they go down. So they're not even a
+hedge against the risk off episode.
+Allison Nathan: And Roubini even argues that the broader
+hype around blockchain technology is overblown.
+All technologies at nascent stages seem to go through boom-andbust cycles. So why don't you think this moment is comparable
+to the early days of the Internet that ended up being very
+transformative for the world?
+Nouriel Roubini: For several reasons. People say bitcoin
+and cryptocurrencies are like the early stage of the Internet.
+You know, the Internet, if you think about when the Worldwide
+Web was launched, a decade later you had about a billion users.
+I don't know what are the actual users for crypto, but maximum
+100 million. And if you look at transaction costs, markets that
+are efficient like, say, in financial markets, stocks and
+[UNINTEL] spreads have been falling sharply. For things like
+bitcoin, the cost of transactions are still very high. And a
+decade into the Internet, you had email. Millions of websites
+were useful. You had the technology like the CIP, HTML,
+thousands of apps that were incredibly useful and successful.
+In the case of cryptocurrencies, there are dApps, distributed
+apps. But 75% of them are these crypto kitties or literally
+pyramids or Ponzi schemes of one sort or another. And the other
+25% are these [UNINTEL], the centralized exchanges that for now
+they have no transaction and liquidity. So that comparison with
+the Internet ten years later is not true. Ten years into the
+Internet, everybody under the sun was using, was an amazing
+transformative technology. 
+
+
+Allison Nathan: But there are a lot of developers trying to
+innovate based on the blockchain technology and that ledger
+premise. Is there anything at all that you think is worthwhile
+and does have value in that space?
+Nouriel Roubini: The way I put it is as follows. I'm all in
+favor of financial innovation, and I think there'll be radical
+financial innovation in many dimensions. But to me the
+revolution in financial services is the fintech revolution. But
+if you think about the fintech revolution, 99% of fintech firms
+and tons of them are profitable, they have revenue, they have
+real business model, they've been successful, they have zero to
+do with crypto. They have actually zero to do even with
+blockchain. Most of fintech has to do with some combination of
+AI machine learning, using big data, using IoT to collect the
+big data, using 5G or other technology. And they are
+revolutionizing payment systems, borrowing and lending, creditor
+location, insurance, even asset management, some capital market
+activities.
+For example, in payment system, billions of transactions are
+done by billions of people every day using digital payment
+system. You have AliPay, Wicha Pay in China. You have M-Pesa
+in Kenya and most of sub-Saharan Africa. You have Venmo,
+PayPal, Square in the United States. These are all great
+innovations that are totally scalable and secure and disrupting
+financial services that have nothing to do with blockchain. I
+have looked at these a lot because now people say, okay, maybe
+these are not currencies, but the underlying technology of
+blockchain is revolutionizing financial services or even
+business activity. So there's a lot of buzz words about
+enterprise, DLT, or corporate blockchain.
+I've looked at many of these proof of concepts. I call them
+BINO, blockchain in name only, because if something is truly
+blockchain it should be: 1) public, 2) decentralized, 3)
+permissionless, and 4) trustless, with trustless authentication
+done by thousands of miners and so on. But if you look at all
+these experiments about enterprise DLT and corporate blockchain,
+almost all of them are private blockchains. They're not public.
+They're not decentralized. They are permissions because you
+have only a small group of people that have the authority of
+validating transactions.
+I looked at whether any of these DLT proof of concepts, even the
+ones that are private permissions, have worked. And I looked
+and studied 43 experiments of using blockchain for nonprofits. 
+
+
+
+
+In banking [UNINTEL], giving ID to refugees. Out of 43 crazes,
+zero have worked. And I think the fundamental problem is the
+idea that technologies are resolving the problem of trust is
+mission impossible. Trust cannot be created by technology.
+Allison Nathan: And even for those who are more optimistic
+on the space, some constraints to institutional adoption remain.
+Here's Novogratz again.
+What do you see as the last couple of things that really need to
+really push this into an institutional asset?
+Mike Novogratz: I think a little more regulatory clarity.
+So Chairman Clayton just did not want to deal with crypto. He
+didn't want it to be his legacy, and so he punted. And Gary
+Gensler won't. I am guessing within his first nine months he is
+really clear at some regulatory framework. And as we get that
+clarity, it's going to make it easier for institutions to say,
+"I get it." Defi is really interesting right now, but we have a
+hard time using a lot of the products because "know your
+customer." So with a little more innovation and regulator
+understanding, you might see some of these defi protocols and
+projects really start to explode.
+Uniswap could be a bigger exchange than the CME in the New York
+Stock Exchange.
+Allison Nathan: And here's McDermott.
+Matthew McDermott: I would say the key constraints -- there's
+probably two or three. One is definitely mandate. Obviously
+manifests itself in different ways depending on the nature of
+the entity. So corporates, it's more the discussion with the
+boards and the nature of the company. You know, is this
+something that they want to do? And then within investment
+funds and asset managers it's more do they have the authority to
+have some portion of their portfolio invested in the underlying
+cryptocurrencies? So mandate is a key one.
+The second one is the access point and the ease with which they
+can get exposure. And they're looking more to the fundamentals
+of the market and the liquidity associated with that.
+And then perhaps more philosophically, just understanding really
+how does it sit within their broader mandate, portfolios,
+balance sheet? You know, is this the right thing for them to be
+doing? And so I think it needs to manifest itself across many 
+
+
+different organizations. But as we've seen in terms of
+continued inflow into this space, more and more people are
+getting comfortable.
+Allison Nathan: And with continued volatility in crypto
+markets, we'll be closely watching the implications for crypto's
+status as an student class, investors, and financial markets
+more broadly. I'll leave it there for now.
+If you enjoyed this episode, we hope you subscribe on Apple
+Podcasts and leave a rating or comment. I'm Allison Nathan.
+Thanks for listening to Exchanges at Goldman Sachs, and I'll see
+you next time.
