@@ -1,0 +1,173 @@
+20) 1:10 Compound DAI (cDAI)
+An interest-bearing claim on DAI held at Compound (a borrow/lend platform).
+DAI is a USD stablecoin MakerDAO creates, overcollateralised by ETH and other cryptocurrencies.
+High market cap ($1.5bn) because Compound incentivises borrowers and lenders with COMP tokens (as well as any interest rate on lent DAI). People farm COMP by simultaneously borrowing and lending DAI, and the COMP earned more than compensates for the interest rate differential from being both a borrower and a lender.
+Some folks got stopped out on this trade when DAI traded above $1.20, forcing some liquidations due to being undercollateralised.
+Could cDAI be used as money? Some issues with using an interest bearing token. Different theories on this.
+19) 5:55 Tezos (XTZ)
+First chain-based proof of stake, with longest chain rule, like Bitcoin. Different from other proof of stake implementations. Also first to do on-chain governance where proposed code changes are recorded on-chain and voted on-chain.
+Layer 1, competes with Ethereum with their own Virtual Machine, uses a unique smart contracting language.
+Got a lot of early interest from bitcoiners due to having on-chain governance, but now on-chain governance is less trendy.
+Struggle to find application and use-case fit, especially competing with Ethereum, given the advantages that Ethereum has.
+Investors contributed BTC and ETH to the crowdsale, Tezos guarded their treasury well.
+Smart committed team.
+Doesn’t have grass-roots participation of smart contract devs. Tough adoption play. Has a staking element though – exchanges have to buy it so that they can stake on behalf of their customers.
+18) 12:26 NEM (XEM)
+Don’t really know about this one. Popular in Japan, top 10 coin at one point, very 2017 coin. Asian Ripple? Website mentions payments, settlement, clearing.
+Haven’t seen much adoption. Don’t hear about it much a lot these days. May fall out of top 20 soon.
+17) 13:56 Tron (TRX)
+Fork / rip-off of Ethereum. Has copies of Ethereum tools eg a copy of Metamask. Makes it familiar and easy to use.
+Not a ghost chain. Have used it for SUN liquidity mining in the peak of DeFi summer.
+There’s a lot of USDT (Tether) on Tron. Could just be Tron whales.
+OTC and exchanges will use USDT-on-Tron when Ethereum fees are high.
+“Cheaper Ethereum” use case. Saw some gambling Dapps in 2018-19. Precursor to DeFi.
+Definitely have a community in China and the US.
+May struggle to compete on technological innovation and mindshare, as people realise they just copy, there’s no novel thinking.
+Bittorrent (acquired by Justin Sun, the founder of Tron, in July 2018) excited some people but turns out it’s not really helping Tron that much.
+It surprised people by not disappearing yet… Sticks around but not innovative.
+16) 17:11 Wrapped Bitcoin (WBTC)
+An ERC20 claim on Bitgo for BTC. The sole custodian of the underlying BTC is Bitgo.
+$2.3bn value of BTC moved onto the ETH as an ERC20. Bitgo has proof of reserves using Chainlink.
+Popularity due to primacy in key DeFi apps – eg you can use it collateral in MakerDAO, you can lend/borrow it on Compound & Aave. It was one of the first 4 incentivised pools on Uniswap.
+Tokenised BTC-on-Ethereum needs a network effect. wBTC and renBTC done well, but other wrapped BTCs no one knows how to use.
+Single custodian isn’t as bad as people make out – USDT, USDC are also custodial (where a company controls the fiat in bank accounts).
+Shows the power of Defi and the ease of transacting on-chain. Market is willing to take the risk.
+Can a newer more decentralised wrapped BTC overtake wBTC? No, because liquidity is the most important, and wBTC is winning this. More likely that wBTC snd renBTC find a way to decentralise, than for new decentralised wrapped BTCs to gain share from wBTC and renBTC.
+15) 21:59 Monero (XMR)
+Getting more attention from financial regulators than BTC. Privacy be default (unlike Zcash). Hides the sender, recipient, and amount.
+Surprised by how well it performed this year.
+Do you need a privacy coin? Or a privacy solution for existing coins (eg ETH)?
+Privacy coins were popular in 2017, seemed like they would be an investment class to themselves. 2018 was bad for all non-BTC coins.
+They are proof of work, so tough for their price to go up, due to constant selling from miners (proof of stake less so)
+There was an argument to say that privacy coins would struggle to get listed on legit exchanges due to regulatory issues, so therefore hard to become widely used money.
+Monero is often compared with Zcash:
+If you really value privacy, it’s pretty much only Monero at this point (used compete with Zcash which has opt-in privacy).
+Zcash almost a meme how poorly it has performed since launch. But it has delivered on its promise of opt-in privacy. You can now mine directly into a shielded address. But not many people use the privacy features yet. A lot of crypto is people buying in the hope that other people will use it.
+The large founders reward, a large percentage of emissions, impacted its narrative negatively.
+If you have emissions modelled after BTC, you will have a lot of miner dumping. Miners play energy arb all day and mine and dump the most profitable coins.
+Would want to see Zcash go up as confirmation, before buying it.
+14) 29:46 EOS (EOS)
+Designed to compete against Ethereum – an Ethereum killer.
+Mainnet in May 2018, ongoing crowd sale for months before. Raised a ton.
+Coin started as ERC token by investors contributing ETH. Something like 11% of all ETH went towards this crowdsale.
+Had a lot of developer adoption in 2018, but struggled with lots of economic incentive issues between the actors. Rising complexity increased potential attack vectors. Turned devs off.
+Still got a strong community, block producers are mainly the exchanges now (this centralisation is a risk for all proof of stake coins). Wide distribution, still work being done on it. Hasn’t delivered as much as people had hoped.
+Largest ICO ever, huge treasury, would have expected them to have done more. Mainly treasury is in BTC, over 140k BTC which could be the largest ICO foundation.
+Might be biding their time for a killer use case, don’t count them out.
+13) 35:04 USD Coin (USDC)
+More heavily regulated stablecoin than Tether, which is regulated in the US but more lightly. Tether doesn’t offer proofs of reserve that USDC does.
+USDC done well vs the USD onshore-US stablecoins (vs PAX, GUSD). PAX has gone to a whitelabel model: BUSD (BinanceUSD) and HUSD (HuobiUSD) run on PAX infrastructure.
+USDC’s main source of strength has been the strong brand of Circle and ties with Coinbase being an easy place to mint and redeem. DeFi has also helped USDC (USDT (Tether) has also benefited a lot from DeFi)
+Stablecoin pools tend to use USDC and DAI. You can mint DAI with USDC with very low haircut.
+USDC used in OTC trading now instead of bank cash. Faster and cheaper and easier. USDC is the proxy for bank transfer.
+USDT is like offshore dollars (“Eurodollars”), USDC more like onshore USD.
+Could USDC be the official CBDC of the US? Non-zero chance. Official sector could partner with USDC. Don’t think US CBDC would run on Bitcoin or Ethereum rails – you’d be paying for censorship resistance that you don’t need.
+12) 40:48 Bitcoin SV (BSV)
+Still alive! Forked off BCH in late 2018, and flippened BCH (ie had a higher market cap) for a couple of moments.
+BSV wanted a much bigger blocksize, whereas BCH wanted an adaptive blocksize. The BSV folks wanted their own coin all along, so this gave them the incentive.
+They are pushing through a lot of transactions, but they are not meaningful, a lot of them are unnecessary.
+They have pivoted to early 2017 Ethereum based arguments and narrative. But why are they doing this on a Proof of Work fork of a fork?
+Endgame feels like it’s different to what they say it is. You shouldn’t go around shorting it just because you don’t think it’s a good idea, because the endgame is unclear.
+Tons of BCH hasn’t been claimed since the fork, neither has the BSV that forked off the BCH. So the circulating supply of BSV is less than people think – maybe 3m coins. The market cap is overstated, and a lot of BSV has been dormant for various reasons (could be tax, could be they don’t want to dox their BTC account).
+If the price rises, some dormant volume could activate to be sold to pay tax.
+Don’t think a hobbyist can run a node any more. They’re proposing to remove the P2P network, so wallets connect directly to mining nodes. So then they can get rid of Proof of Work. And then it’s fully client-server and BSV has lost everything that made it different form the existing internet infrastructure!
+11) 46:26 Stellar (XLM)
+A fork of Ripple (XRP). A codebase fork, not a coin distribution (blockchain) fork.
+Jed McCaleb, the founder of Stellar, was also at Ripple, so he has loads of both.
+Stellar is more interoperable than most with Bitcoin. It can in theory run a lightning network.
+In early 2017, Stellar did a huge airdrop to BTC holders, which got some Bitcoiners to back Stellar. It’s like a Ripple fork that Bitcoiners hold more of.
+Wouldn’t rule out some of these micropayment coins to support the CBDC proposals. But you don’t need censorship resistance.
+Hasu: I wouldn’t buy for this reason though. I’ve never been more bearish on Ripple, and by extension Stellar, than I am today.
+Stellar, like Ripple, has a ton of the market cap not active. A few months ago they announced they’d burn some of their escrow. Made their price go up briefly then back down. The coin supply isn’t well defined – in that sense it’s centralised (lots of coins held by few actors).
+Burning could be seen as bullish or bearish – bullish in that it increases scarcity, bearish in that they can’t find any productive uses for the coin other than burning it.
+10) 50:24 Binance Coin (BNB)
+Binance has done tons of trading volume, some days they did $30bn of volume.
+Binance has done really well in the offshore market vs their competition, especially after withdrawal issues at OKEX (took a month to withdraw), and Huobi has 3 key staff in prison.
+Binance focused on their users doing well, eg their Launchpad and IEOs. Brought on reputable projects, negotiated good terms for BNB holders and Launchpad users. The direct-to-client model really helped them and set them apart.
+Sam (CEO of FTX) is playing that accessibility game well too nowadays.
+Binance was one of the first exchanges to have a good token, and so their userbase, especially early ones, are very loyal, as they made money, and BNB holders get value accrued back.
+People trust Binance because the BNB token did well. They’ve nailed how to accrue value to BNB holders, much better than other exchanges who issued coins, then basically forgot about the holders (eg LEO, Bitfinex’s coin, and Huobi’s coin). Binance was able to pull off this vision.
+BNB allowed people to participate in Binance’s success in a democratic way. It behaves like Binance equity. Some people don’t like the “buy and burn” model, which is better than dividends for tax, but it means holders don’t get cashflow unless they sell the BNB. Psychologically, people prefer more tokens than the value of their tokens going up even if financially equivalent. This happens in MakerDAO too.
+9) 56:50 Polkadot (DOT)
+(Polkadot is a Layer 1, competitor to Ethereum)
+Most inclined to own this coin after BTC and ETH. We’re big fans of Polkadot. Unparalleled approach by the team (Gavin Wood, who also founded Parity). Parity launched Ethereum and built the community and bootstrapped developer adoption.
+Polkadot is the highly engineered approach to smart contract applications. Analogue would be Cosmos which has a slightly different approach.
+Polkadot popular in Asia, large grassroots community.
+Next few weeks and months will be key for adoption.
+Look at Kusama, which is kind of the Litecoin of Polkadot. Had 4x faster block speeds, faster governance modules. Has had loads of grassroots support, its price has outperformed DOT.
+Will see a lot of DeFi applications plant a flag on Polkadot in the coming months. Eg Compound.
+Polkadot has a lot of EVM compatible tools now.
+Case for Polkadot is very strong.
+8) 1:03:09 Cardano (ADA)
+Has existed as long as Polkadot. Funny one for the top 10. Proof of stake coin… this is a complete mystery.
+Charles Hoskinson, founder, was also early in Ethereum. They raised 50,000 BTC in Japan in other countries.
+Has done well price wise, still 85% vs all time high.
+This was on Bitmex, it has futures. People see it representing or as a proxy for Alt coins, so will buy when they think alt season is coming. Large market cap, low price, also moves a lot. People like trading it. Only coin except XRP below $1 in the top 10.
+Product roadmap is unclear.
+7) 1:05:25 Chainlink (LINK)
+Has done extremely well price wise. Highly dedicated community. Has best memes beside BTC. Good engineering. Good partnerships and real integrations.
+This is the poster-boy of application thesis – how apps (rather than the underlying layer 1 coin) can accrue value (LINK has 10% of the value of ETH)
+Where will value accrue? Layer 1s? Applications? Oracles?
+If Application thesis is correct, many DeFi coins will appear in top 20 over the coming months, because they are actually used. If it’s wrong, maybe base layers will perform.
+Link is definitely the best oracle solution, has the credibility, everyone is forced to use it else they get harassed.
+6) 1:08:44 Bitcoin Cash (BCH)
+Has lost a lot of value vs BTC but is still there.
+Proves you can’t just fork BTC and invalidate BTC’s scarcity. Could even say its failure has generated value to BTC.
+Negative Lindy effect – the longer it doesn’t succeed, the harder it will be to succeed.
+Has OG support from wealthy crypto folks.
+Been damaged from ETH too – some BCH fans went to Ethereum. It lost the Bitcoin network effect and investor community, and also lost the utility mantle to Ethereum.
+If BCH forked off earlier in eg 2016 it could be worth more now – it could be what we think of as Bitcoin now. It could have been the winner. Eg today’s Ethereum is actually a fork of Ethereum Classic, as today’s Ethereum was the more aggressive act. Ethereum is actually the fork; Classic is the original chain.
+Hard to determine what the real Bitcoin or Ethereum is – it’s whatever we say it is.
+BCH’s struggle now is the roadmap and adoption. How to create a larger community and bring new people in. They tried to do a bunch of things in 2016 but it’s too little too late.
+BCH didn’t give BTC owners any reason to own it. Spent too much time arguing and too little time delivering the roadmap.
+Their playbook was merchant adoption (rather than store of value), but stablecoins damaged that playbook.
+You need a reason for people to own it – a niche to be best at. In the meantime it’s proof of work which means it’s constantly being sold.
+Bitcoin in its current form has no competition. It’s the only store of value narrative, it is pristine collateral, and other chains want to import it. Other chains are better than BCH in terms of utility (eg Ethereum), stablecoins beat BCH for payments, centralised chains beat BCH on confirmation times. BCH doesn’t have an edge / niche. In this space it only matters to be the best at something, to carve our your niche.
+BCH’s price could do well though in the next few years. Devs can get more of a say, the disillusioned investors have sold and and quit; supply is more centralised. Can BCH track BTC as it goes up, as a philosophical hedge? Maybe BCH can move in a ratio (say 0.01 to 0.1) to BTC as a hedge.
+Forks are a bit like options – there’s a time decay, that the longer a fork doesn’t deliver on its aims, the less likely it will be to succeed. The competing effect is the Lindy effect which is that the longer something has been around, the more likely it will be to continue to be around. So which force prevails is what’s important.
+5) 1:19:32 Litecoin (LTC)
+This is like BCH. How is this still around? This is the second most Lindy coin as it was created very early after Bitcoin. Also the gold/silver meme is strong in the traditional markets and they have applied that here – LTC is the silver to BTC’s gold.
+They’ve aligned with the BTC community well, never threatened to flippen it. They’re like the kid brother.
+Have captured retail interest, as it is (unit) priced lower than BTC. Litecoin is the ultimate beneficiary of the unit bias effect (if something is cheaper “per coin”, people might buy it preferentially). Even more so than XRP which needs you to believe a different narrative about payments. Litecoin’s only meme is that it’s digital silver to digital gold.
+It’s also definitely not a security – no premine, got proof of work. Also has all the on-ramps eg exchanges, Paypal.
+LTC functions as the testnet for BTC innovation eg Segwit, lightning network.
+Some traders see LTC as the Alt vs BTC. They will only flip between BTC and LTC. Some also like XMR (Monero).
+It’s a money crypto rather than a utility crypto.
+4) 1:24:40 Tether (USDT)
+Reached $20bn market cap – insane growth.
+In 2019 everything thought Tether would die / get busted. People trust it more now.
+People underestimated the network effect. A few exchanges that don’t do fiat eg Binance, Huobi, need USDT to exist as a trading pair and to get stable money in and out, and the stablecoin should be neutral, not the exchange’s branded one.
+USDT benefited when the markets go up, people sell into USDT, as people have the confidence they can use USDT to buy back in (compared with eg there are no meaningful USDC trading pairs).
+USDT is so big you don’t need to create/redeem it into bank account money.
+They’ve sorted out their banking issues, moved to the right jurisdictions, using the right partners.
+USDT is 6x bigger market cap than USDC but more than 6x more liquid, as much of USDC is locked up in DeFi.
+3) 1:28:03 XRP (XRP)
+A hybrid of different narratives. Got Lindy effect, it was early.
+For a long time it appealed to traditional financial people who first learnt about crypto: no proof of work, cheap unit bias, done a bunch of partnerships and they parlay them into announcements that makes it look like adoption.
+Whether it can deliver its roadmap (banks using XRP to move value to do remittances and payments) remains to be seen.
+With CBDCs and other stablecoins, the Ripple narrative is hard to sell. The markets get smarter over time.
+A bit anti-Lindy too – the longer you talk about adoption and the longer it’s not adopted, the worse for you. Fresh narratives might do better this cycle. Old narratives have to pivot into fresh narratives eg Ripple’s Flare network.
+Flare: Gives XRP holders SPARK coins on the Flare network. The idea is you can use DeFi on Ripple, or XRP on Ethereum. Feels like a capitulation of narratives. You’re saying there’s nothing compelling on the XRP roadmap, so just use this on DeFi. Even retail will catch on to this.
+Had some big supporters from traditional finance, believers in digitisation, XRP to replace SWIFT or whatever, but increasingly don’t see the case for this. The burn can be regarded as capitulation. Wouldn’t want to hold it.
+2) 1:33:35 Ethereum (ETH)
+ETH price is hot headed topic because its price did so badly in 2018. So a lot of the community feel PTSD.
+Bullish Ether vs 90-95% of coins. It’s the only smart contract chain that definitely has adoption. You can earn a living on Ethereum, everything else is a promise and a whitepaper.
+People underestimated ERC20 and Metamask network effects. Even with its high fees and transaction ordering issues. Doesn’t matter, as it has composability, developers and users.
+We might go to a power-law world 80% BTC 20% ETH.
+Don’t buy into the flippening narrative that ETH will overtake BTC’s market cap. ETH already beats BTC on most metrics, so why hasn’t it already flippened BTC?
+ETH holders tend to understand that BTC as a store of value requires a high degree of trust minimisation. Hard to imagine ETH as a digital money as it hard forks often, and has an ill defined monetary policy. Hard to even describe the process of monetary policy in ETH, making it relatively less appealing as “money”.
+ETH has unit bias, with BTC at all time highs and ETH at 40% of all time highs. Despite ETH2.0 deposit contracts hitting 1m ETH, DeFi coins breaking all time highs, still 40% of all time high. Shows you that the crypto inflows is all USD -> BTC.
+Not useful for the average person to debate BTC vs ETH. Just own a basket. Ambitious to bet on ETH flippening BTC, but you’d probably still make money in USD.
+If you mainly own ETH, should consider that DeFi apps (Aave, Sushi, YFI) benefit from ETH network but also want to accrue value to their own token holders and users (not necessarily to ETH itself). So there is a divide: Molly (founder of Hedgic) said “I don’t care if you think ETH is money or not; I’m using Ethereum because it’s permissionless and I can put my app there”.
+Maybe after Proof of Stake and EIP1559 it will increase fees generated on the network, and make ETH more useful as collateral (bullish for ETH). ETH is being challenged as collateral by BTC-on-Ethereum which keeps growing. BTC could flippen ETH as collateral across the Ethereum ecosystem.
+People underestimate reflexivity in crypto. If ETH breaks through all time highs, it’d be a good buy, entering price discovery. ETH is the most reflexive asset in the space. At $80-100 people say there’s no need for it to have value; at $800-1000 people say it could flippen BTC. But it only lasts a few weeks at those price points. It’s still very hot money driven.
+It has inherited the Bitcoin Cash (hedge against BTC) mantle. This gives it a price floor that other tokens don’t have.
+Hasu: 100% sure it’s not going away, but probably won’t flippen BTC. I recommend to my friends to buy BTC and ETH and hold for at least a year. Bullish on the existence of both.
+1) 1:46:51 Bitcoin (BTC)
+Almost reached all time highs. Was super quiet on the run up, then media machine will turn on.
+Most people buy BTC on the second time they hear about it – first time they think it’s a bubble or a scam. Then a year later they realise it hasn’t gone away, so they might buy some on second look.
+2019 was when BTC got more respectability, 2020 it got social proof and prestigious.
+The social prestige of BTC has never been higher than now, even when you speak with traditional bankers. Respectable traditional finance people coming out in support of BTC.
+Seeing a lot of high net worth and family offices buying. For them it’s about keeping up, not outperforming. If this is about digital scarcity, then I need my own piece: If owned x basis points of total wealth in my city, I need to own x basis points in BTC to get to my original wealth distribution. That’s how many of them are thinking about it. It’s 100% BTC now, not other cryptos.
+They’ve been tracking it for years, seen it fend off the forks & get regulatory clarity. It has all come together, in the backdrop of heavy monetary easing and printing. No surprise we are at all time highs now, and the thesis for BTC as a store of value has never been stronger.
+Career risk: There used to be career risk from owning or recommending BTC, now career risk is from not owning BTC 😂 People underestimate how fast this is happening.
