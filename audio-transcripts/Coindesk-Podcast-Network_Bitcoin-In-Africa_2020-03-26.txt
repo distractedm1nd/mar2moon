@@ -1,0 +1,309 @@
+Hello again to the Bitcoin and Co. podcast. This is the second episode of a series about bitcoin (BTC)  in Africa. In February 2020, shortly before the beginning of quarantine and travel restrictions due to the coronavirus pandemic, I travelled Zimbabwe and Botswana to get a picture from the ground about the usage of bitcoin in these countries. Zimbabwe and Venezuela are very often named as countries where bitcoin could be making a difference, in supporting people’s economic situation. I wanted to see by myself if this is true and in how far bitcoin is known and used there
+
+This podcast special and my trip to Africa would not have been possible without my sponsors and supporters. 
+
+Thanks to my sponsors: LocalBitcoins.com the person-to-person bitcoin exchange site founded in 2012: LocalBitcoins allows you to trade directly with another person. This makes the process customizable, lean and fast, as there is no corporate overhead. You can get your bitcoins instantly. For every trade, LocalBitcoins.com offers escrow protection to ensure the bitcoins and both traders are safe.  
+
+Thanks to SHIFT Cryptosecurity, manufacturer of the hardware wallet BitBox02,
+Peter McCormack and the whatbitcoindid podcast,
+Coinfinity, manufacturer of the CardWallet and many thanks to several unknown private donors, who sent me Satoshis over the Lightning Network.
+
+This special is edited by CoinDesk’s Podcasts Editor Adam B. Levine and published first on the CoinDesk Podcast Network. Thank you very much for supporting the Bitcoin in Africa series with your work.
+
+Thank you also to GoTenna, for donating several gotenna devices to set up a mesh network in Zimbabwe, to stakwork.com – the place to earn bitcoin over the Lightning Network – and to Team Satoshi, the decentralized sports team for supporting my work.
+
+This special is also brought to you by the Let’s Talk Bitcoin Network.
+
+If you like my work and the Bitcoin & Co. podcast please take a minute to share it with your friends on social media and subscribe to the feed in your podcast player. You’ll find the subscription links at: bitcoinundco.com/en/subscribe
+
+In the first episode you learned about the current living situation of Zimbabweans and the country’s political history, which paints a picture about why things are how they are as well as the state of human rights and free speech. In this episode you will get to know the multicurrency world, the different forms and usages of money as well as the price fluctuations that Zimbabweans are dealing with day by day. 
+
+We also take a look at the current regulations of cryptocurrencies and the usage of mobile payments and internet connections.
+
+To understand the Zimbabwean currency changes, reforms and the resulting crisis, we need to go back to 1980, the year of the independence of Zimbabwe. Back then the Zimbabwean dollar was legal tender for the first time. It was introduced to directly replace the Rhodesian dollar at par (1:1), at a similar value to the U.S. dollar. Over time, hyperinflation in Zimbabwe reduced the Zimbabwe dollar to one of the lowest valued currency units in the world. It was redenominated three times (in 2006, 2008 and 2009), with denominations up to a $100 trillion banknote issued. The final redenomination produced the so-called “fourth dollar” (ZWL), which was worth 10 to the power of 25 (1025 ) “first dollars.”
+
+You needed weird amounts of notes to buy stuff. I was told there was a joke at that time: Someone wanted to pay for something and came with a wheelbarrow full of bank notes to the seller. The seller threw the notes out of the wheelbarrow and went off with the wheelbarrow, because it was worth more than the big pile of banknotes.
+
+You can buy those paper notes as collectors items now. I found 10 million dollar notes at a souvenir shop in Victoria Falls. One of these paper notes costs 5 USD. I guess that is a higher value than they had in 2008.
+
+In 2009 the country – ravaged by the hyper-inflation – abandoned the Zimbabwe dollar and adopted multiple currencies including the U.S. dollar. 
+
+In 2014 there were eight legal currencies – U.S. dollar, South African rand, Botswana pula, British pound sterling, Australian dollar, Chinese yuan, Indian rupee and Japanese yen.
+
+The dollarization reversed inflation, permitting the banking system to stabilize and the economy to resume slow growth after 2009. 
+
+But then in 2015, the foreign currency notes dried up at the banks, leading to cash shortages in the economy. In 2016, Zimbabwe introduced Bond notes as a surrogate currency, which initially had equal value to the U.S. dollar but today it trades at 1:43 with the greenback.
+
+In June 2019, the Reserve Bank of Zimbabwe abolished the multiple currency system, outlawed the use of U.S. dollar and replaced it with a new “Zimdollar” based on the RTGS dollar. The new legal tender. 
+
+Anita Posch  
+
+What are the forms of money that people use here in Zimbabwe?
+
+Online Entrepreneur  
+
+Okay, so in Zimbabwe there is what is known as Bond, which is the cash, the hard cash that you actually hold, paper money that you hold in your hand. And there is what is known as RTGS, which is the electronic money if I can, if I can call it that way, that’s another form of payment that people use, and also people use U.S. dollars and some other currencies like South African rand, but the most popular one is U.S. dollars in terms of currency that is not from Zimbabwe. But mostly people use electronic money which is called RTGS the bond money and U.S. dollars and South African rands as well.
+
+Anita Posch  
+
+And I always see these signs with EcoCash numbers on it. So is EcoCash very often, broadly used as a form of payment?
+
+Online Entrepreneur  
+
+Yes. EcoCash is broadly used. It is a form of payment in Zimbabwe. I would say, EcoCash is just a vehicle of where money passes through. Okay? So it just connects your RTGS balance to the customer. We just use it to make payments like walking into a shop, you buy bread, you can actually use it to buy anything that you want, pay school fees, pay anything that you want. Yeah. But it’s not classified as a currency. Yeah, but it holds our currency.
+
+The official currency of Zimbabwe is the RTGS dollar or Zim dollar. As you have just heard it is called RTGS, if it is the money on your bank account – RTGS is short for real time gross settlement. So it is called what it is, electronic money – an entry in a database. If it is in the form of cash, it is called Bond notes or Bond coins. 
+
+These are the Zimbabwean dollar paper notes. Cash. In paper form it is called Bond note as mint Bond coin.
+
+But the Bond notes are rare. This is the reason why there are queues at the banks when wages are paid out. People are waiting hours for cash. Why? Because public transport with buses or in many cases the school fees have to be paid in Bond notes. You can find pictures of Bond notes and coins as well as a queue in front of a bank, that we were passing by, on the episode page at https://bitcoinundco.com/en/africa2 .
+
+There are a lot of ATMs, but they are empty. They have been used up until 2015; now you can get your bank statement, but no Bond notes. So if you can get hold of Bond notes you immediately take the chance to get them. For instance – I was standing next to my friend at the counter in the supermarket. Ahead of her there was a guy who had a bundle of Bond notes in his hands. She saw that and before he could pay his groceries my friend asked him if he would give her the Bond notes, if she would pay for his groceries per swipe. And so it happened. His bill was settled and she got hold of Bonds.
+
+Credit cards: Credit cards have been used some years ago and you can book flights or use them for online shopping, but since they are all in foreign currencies it’s complicated to get the money out of the bank. So if you’re a merchant, it’s theoretically easy to collect money with credit cards, but very expensive and difficult to redeem it. That’s why almost nobody uses credit cards.
+
+So how do people pay their shopping and their bills? In the supermarket you can pay with Bonds or you swipe. Swipe means you pay with your banking card using RTGS  – you know, the electronically stored money in the bank – or you pay with EcoCash, which is mobile money. 
+
+People are forced into using EcoCash because Bond notes are rare. Most of the people do not have access to U.S. dollars and even if you had U.S. dollars, the use of it was outlawed.
+
+And exchanging money is very costly and cumbersome in general. That’s the reason why you get 20 to 30 percent off the price of goods in most cases if you pay cash. On the other hand, if you use EcoCash prices are 20 to 30 percent higher because of the conversion costs. 
+
+And additionally there is a 2 percent transaction fee that the government imposes on every digital transaction. This is basically a tax on every purchase, no matter how rich or poor you are.
+
+While driving back to Harare from our weekend trip, we stopped at one of the many corn stands next to the street. Men are roasting corn cobs on self-made stone grills – it’s their daily business. You can see one of the guys called Advance and his grill on the episode page at https://bitcoinundco.com/en/africa2 . We stopped the car, bought two corn cobs and my friend paid with EcoCash.
+
+One cob costs 8 Zim dollar in Bond; if you pay with EcoCash, 10.
+
+At the end of the sound you can hear Advances phone ringing. That’s the EcoCash confirmation. 
+
+“Looks like I have to do it again EcoCash is…then he says the telephone number and his name “Advance” and then you can hear his phone ringing – STOP
+
+M-Pesa (M for mobile, pesa is Swahili for money) is a mobile phone-based money transfer, financing and microfinancing service, launched in 2007 by Vodafone in Kenya and Tanzania. M-Pesa allows users to deposit, withdraw, transfer money and pay for goods and services easily with a mobile device.
+
+EcoCash, was launched in 2011 by Econet Wireless, a telephony company, for its customers in Zimbabwe – it is similarily to M-Pesa a mobile phone-based money transfer, financing and microfinancing service.
+
+Econet allows users to deposit, withdraw, transfer money and pay for goods and services, including utility bills, from a mobile handset. Users can also buy pre-paid airtime or data bundles for themselves or others. Users can also redeem stored mobile money for cash. A fee for each service is deducted directly from the account stored on the mobile phone.
+
+On the episode page at bitcoinundco.com/en/africa2 you will find a picture of an EcoCash sign, where you see the telephone number, name and the codes you have to dial to send the right amount of mobile money to the seller.
+
+And now a short word from my sponsors:
+
+Not your keys, not your coins – be the holder of your keys for your bitcoin. For that: Use a well-built hardware wallet like the BitBox02 by SHIFT Cryptosecurity from Switzerland. With their upcoming app for Android you can connect the hardware wallet directly with your phone and send and receive bitcoin on the go. Check it out at shiftcrypto.ch – that’s shift c r y p t o.ch. You get free shipping with the code “anita”.
+
+ANITA
+
+How many people are banked or how many are unbanked in Zimbabwe?
+
+HUMAN RIGHTS SPEAKER
+
+To explain that, I have to start 10 years earlier. In 2009 the unity government under a new constitution ended the phase of the Zimbabwe dollar being the official currency and introduced a multicurrency basket. In 2015 basically everything was paid in USD. Zimbabwe had a USD economy, but ran out of cash. The ATMs were working, but there was no money anymore inside of them. Almost everybody was unbanked. At some ATMs you could get South African rand. And in 2016 the bottom fell out on the cash supply. 
+
+Why did the U.S. dollar cash supply run out in 2016? 
+
+HUMAN RIGHTS SPEAKER 
+
+One reason is that Zimbabwe is much more of an import economy than it is an export economy. So before, like when we used to have a strong agricultural base and a strong manufacturing base, we were exporting things. We had a functioning economy. In the intervening 20 years, agriculture really declined, manufacturing really declined, we began to be a country that imported a lot more than it exported, or that we even produced ourselves. So when you go to the supermarket you will see that everything is South African, we’re not producing locally, but we’re buying. Then think about fuel, think about electricity. There’s a huge economy that’s purchasing things from outside and not much that’s selling outside. So all the U.S. dollars that were circulating in the economy at some point they had to have been from outside the country.
+
+So, over time, you have what’s called a nostro account, which is basically the international system of  – once my money goes out of U.S. dollars cash and into the bank, it’s technically still U.S. dollars, but it kind of exists in an electronic trust format. So I’m a bank here and I have U.S. dollars, your bank in the States that has U.S. dollars, we know that we have U.S. dollars collectively, but I’m never going to physically give you $100 because you’re the bank in the States, right? It only exists electronically. Which – as long as we all trust each other is great, but it means, that the Zimbabwe bank is meant to put my U.S. balance into this nostro space internationally, because that’s actually where it’s existing and holding its value. But the banks didn’t do that. So, over time, slowly, slowly the U.S. balance that I thought I had in my account, which was my 100 U.S. dollars that I put into the bank – the bank didn’t hold it in the safe space, they lent it to the government, they borrowed it, they exchanged it. So the U.S. balances that banks held got eroded. And now, when I need the U.S. dollars to go outside the country to buy things I need actual nostros, but if I’m inside my own internal economy, I have a U.S. dollar, in inverted commas, and I give it to you and it’s all buying stuff. Yeah, so we did never check one another like, do you still hold actual dollars? Here are mine. So that were years of doing that, and eventually just kind of all caught up with us. And it was like, millions, hundreds of millions of actual U.S. dollars. The banks have just been busy borrowing, lending Treasury bills and spending. And it was just a number in a database. So the physical, hard currency that should have been backing that up, it was nowhere to be found.
+
+In 2016, they introduced the Bond notes, which was kind of like, Oh, look, there’s no more cash in the system. We’re going to introduce Bond notes to make these things easier. It’s exchange rate is one to one so one Bond note is one U.S. dollar. Don’t worry, you’re going to be fine. And we’re like – well, we’re not particularly stupid.  – But you also can’t really do much about this. That’s the thing. 
+
+ANITA
+
+And then what happened next? Because I heard from people who had like U.S. dollars in the bank, and the government forcibly changed it to Zimbabwean dollar. Do you have any cases or can you say something about that?
+
+HUMAN RIGHTS SPEAKER 
+
+I mean, that’s exactly what they did. It happened in a couple of phases. Since 2009 we have been using this multi-currency basket. So my bank account that I had with Standard Chartered, it was an U.S. dollar account. And in October 2018 you woke up one day and they were like, okay, guys: listen, you have a U.S. dollar account, but actually, that’s now a RTGS account  – a real-time gross settlement account.
+
+Yeah. So literally like even as an organization, it was the same. They converted your U.S. dollar bank account with all you owned into RTGS dollars and told you, if you want, you could open an U.S. dollar account. But you have to put new money inside this account, because the other one is now RTGS dollar – the exchange rate is one to one – but you can’t have that money.
+
+To give you an example of how broken the banking system is: At the time, we as an organization, we were banking with CABS – don’t bank with CABS. CABS is a bank, Central African Building Society. We had all of our money inside of the bank and remember, you can’t get cash. So let’s say we owe an Austrian company that is working for us here in Zimbabwe 1,000 USD. We can’t get money out of the bank, so we have to somehow transfer it digitally to the company in Austria. The company in Austria has maybe an U.S. nostro FCA account here in Zimbabwe, but with a different bank – not with CABS – so there’s no nostro to nostro relationship. 
+
+HUMAN RIGHTS SPEAKER
+
+But the Austrian company’s bank maybe has a corresponding bank in New York. But CABS doesn’t have an U.S. dollar corresponding bank. So CABS has to find the euros to convert our money to send it to Austria – to move it to New York, so that they can go back to South Africa, so that it can get converted to U.S. dollars. 
+
+So that the Austrian company’s bank account here can get it. It was mad. It was like literally  – like we paid one bill that – I think the bill was $73 and the bank charges were $45 – it was just insane. That went on for a year or so.
+
+But then in February 2019, you woke up again. And they’re like, okay, okay, no, no. You’re right. The exchange rate is not one to one. Actually, it has taken us a while, we were a little bit slow. But don’t worry, it’s now one to 2.5. We’re going to have an interbank exchange rate. So now, you could move your U.S. dollars into RTGS at the bank rate, but when you would actually go to the bank, they would just look at you like, that’s so silly – you can’t actually do that. Like we don’t have money. So you couldn’t actually do it, but they acted like you could. 
+
+That was a long time. And then they introduced the statutory instrument in June that said: No more U.S. dollars. You are only allowed to use Zimbabwe dollar only. Only ever, ever. 
+
+But then you go to a government office and you have to settle a bill and you want to use your local swipe card – and the government office tells you no sorry, we are only taking U.S. dollars or an international credit card. So it was completely absurd, you know?
+
+Anita Posch 
+
+Yeah. And you also have different rates, like in the bank, you have one to 17 or something. And on the street, one to 25. So you get more RTGS on the streets. 
+
+HUMAN RIGHTS SPEAKER
+
+Yeah. Because the U.S. dollar is highly valued. Especially with a lot of people or businesses, you know, who need parts or supplies, they can’t be imported or paid in RTGS. They need the U.S. dollar. And also, there’s a lot of exchange control regulation on the U.S. dollars. So if I’m an NGO, I am legally allowed to trade in U.S. dollars. So we can pay a bill to a local supplier in U.S. dollars. 
+
+HUMAN RIGHTS SPEAKER
+
+That supplier has to liquidate those U.S. dollars within 30 days, or they get converted into their RTGS account at the bank rate. So and if I’m the local company, and I want to use those U.S. dollars to buy something, I have to prove it – I have to give my invoices – I have to give my justification – I have to ask for permission. And the Reserve Bank may or may not allow me to move those U.S. dollars out of the country. 
+
+So suppose I’m in solar power and I want to buy 20 panels so that I can sell them. I only have 30 days to spend down on the money that I already had. And the Reserve Bank can take as long as it wants to give me permission to even go and resupply. So, like that’s another reason why the U.S. actual physical dollars, the physical cash, has so much more value. So don’t, don’t put $100 into my bank account for God’s sake! Just give me the cash, because the cash I can keep and I can use it whenever I want it compared to the one in my bank account.
+
+Anita Posch   
+
+Yeah, so that’s the main advantage with U.S. dollar cash.
+
+HUMAN RIGHTS SPEAKER  
+
+Yeah, it’s a huge advantage and that’s why the premium exists.
+
+And now a short word from my sponsors:
+
+The Card Wallet is the ideal solution to store your bitcoin keys in the medium and long run. No Software updates needed, it’s 100 percent offline, it leaves no traces on the blockchain if you give it away as a gift or inheritance. With the card wallet you’ll get one bitcoin address, you can send bitcoin to it, whenever you wish and all you have to do is, to store it in a safe place. That’s it. The manufacturers are the Austrian state printinghouse, which is also the producer of Austria’s passports and Coinfinity, Austria’s first bitcoin broker. Order your card wallet at cardwallet.com/anita and Get 20 percent off.
+
+HUMAN RIGHTS SPEAKER
+
+So to answer your question of what percentage of Zimbabwe is banked? 
+
+Basically almost everybody has to be banked in one or the other way. People have to use EcoCash, because there is no cash on the streets – there is no other way to get or use money. Every small shop on the streets, every vegetable seller uses EcoCash. 
+
+There was a case. Middle of 2019. Government basically said EcoCash, listen, no more cash out. You can no longer take your EcoCash money and change it for U.S. dollars – we’re done. And EcoCash was like haha, no, sorry. Actually, they filed legal papers to object to that. And in the course of those legal papers you got a sense of like, wow, okay, so this percentage of Zimbabwe’s transactions are electronic, so it’s huge – like 85 plus percent of Zimbabwe’s transactions are electronic, which basically means – that percentage of the economy is somehow banked or has EcoCash. Meaning 85 percent of all transactions are electronically and mobile money is a huge part of that. 99.8 percent of the mobile money is EcoCash. I mean, it’s huge.
+
+Anita Posch 
+
+Are there other providers who also have something like EcoCash?
+
+HUMAN RIGHTS SPEAKER
+
+Yes, it is like a mobile wallet. There are two other mobile phone operators. But they are tiny. So again, like when you say like what percent of the economy is banked? It’s actually huge because of this pressure. In 2015, maybe it would have been probably less than half. But because suddenly now you have an economy in which there is no cash, the only way I can pay for things is EcoCash or swipe. So even things like Steward bank, which is also Econet, which has really popped up in the last few years, like the queues outside of Steward bank are massive, because they don’t have any barrier. Like, I have to walk up with my ID and I can open a bank account. And if I want to exist in this economy, I have to have a bank account. 
+
+And with EcoCash you don’t even have to buy airtime, you do not need a mobile phone package. EcoCash works on your phone frictionless, you only need an ID to register and this even does not have to be your own. From that moment on you can accept payments. 
+
+Anita Posch
+And is EcoCash a privately held company? 
+
+HUMAN RIGHTS SPEAKER
+
+Yes, it’s private. 
+
+Anita Posch 
+
+But it’s huge, isn’t it? It’s comparable to M-Pesa? 
+
+HUMAN RIGHTS SPEAKER
+
+Yeah, yeah, exactly. Is it basically the same. 
+
+I mean, you can get money in – from the Diaspora into your EcoCash FCA Foreign Currency Account wallets. So then I can show my relatives on the Diaspora how to put 50 U.S. dollars into my EcoCash FCA wallet. I could then use EcoCash’s Bureau de Change to change that money. At the bank rate,
+
+Anita Posch 
+
+Which is not so good. 
+
+HUMAN RIGHTS SPEAKER
+
+No. Or I could have my relatives send to me over MoneyGram, which I could exchange to cash. 
+
+Anita Posch    
+
+But how much do they take?
+
+HUMAN RIGHTS SPEAKER
+
+It depends on how much you’re like how much you’re changing. Yeah, like I think it’s a percentage of, I mean, I’m not saying it’s free or cheap but if I don’t have anything, it’s the possibility. 
+
+Anita Posch
+
+So, and what happened then in 2016, you get Bond notes, one to one to U.S. dollars.
+
+HUMAN RIGHTS SPEAKER
+
+Yeah. So they kind of floated around for a couple years. But it didn’t change. It didn’t really change the cash situation at all. Like it didn’t suddenly get better. I mean, they literally had like, $2 notes and $5 notes and some coins. Lots of coins, and you still had to go to the bank with cash withdrawal limits. And maybe there wouldn’t be any cash that day. And I think it was something like $50 a day and $300 a week. I mean, and they would give it to you in coins, like, oh, here I have $50 in coins. It didn’t actually improve the cash situation.
+
+Anita Posch 
+
+So just getting back to EcoCash. I mean, how do people feel about having to use this because actually, it’s you have to, you’re forced to use it.
+
+HUMAN RIGHTS SPEAKER  
+
+Yeah, I can’t remember maybe last year there was something like, “Oh, this is so great. You know, Zimbabwe is leading the Electronic Frontier like Zimbabwe is revolutionized. We don’t even need cash, we are a plastic money society and we are the future!” 
+
+Yeah, like – we are not stupid.
+
+We are more like, this isn’t a good thing. This isn’t some choice that we’ve all decided like, Oh, it’s so convenient money. Yeah. So what am I gonna do? I’m gonna swipe.
+
+Anita Posch  
+
+I mean, there’s one thing you did here, you really leapfrogged the technology. Because I have seen many, many people with smartphones. I was surprised, actually, that so many people have smartphones. 
+
+As of November 2017, EcoCash was reported to have 6.7 million registered users, compared with two million conventional bank account holders in the country. It controlled 99.8 percent of the mobile money market in Zimbabwe at the time. During the first six years of existence, the service processed over $23 billion. In 2017, Zimbabwe’s Gross Domestic Product was valued at US$7.5 billion.
+
+Prices are constantly changing. That is why the menus in restaurants are without prices. Or as you can see on one of my pictures on the episode page, prices are being crossed out and re-written for instance on a packet of potato chips.
+
+By the time I record this episode – middle of March 2020 – the street rate is 1:43, while the official rate is still 1:17. This is reflected also in this tweet where someone is writing: “Nobody sane will exchange to the official bank rate, when you get much more Zimdollars on the street. Common sense should tell the Reserve Bank of Zimbabwe to float the rate or dollarize. But they won’t do that, because it will stop political elites from LOOTING!”
+
+
+At the same time prices for and at public infrastructures are raised. For instance, the Bulawayo municipal pool. People who know me better know that wherever I spend some time, I am looking for a pool for a swim. So we headed for the public pool. When we got there a bunch of kids stood in front of the ticket office and we thought that there might be a swimming competition. But we were wrong. The reason for them to stay outside was a price rise from 8 to 25 Zimdollar in one day. The children simply couldn’t afford that.
+
+The rampant inflation makes life for people who own and earn in U.S. dollars easier. Everything gets cheaper – on the backs of people who don’t have access to USD.
+
+If something cost 100 Zimbabwe dollars at the beginning of February, it was 4.2 USD; 2.5 weeks later it was 3.3 USD. So – the thing is again, if you are better off and own USD things are getting more affordable – you are better off again. But if you own Zimbabwe dollar only, prices are rising while your wage is in most cases not rising. 
+
+Anita Posch  
+
+From my perspective seeing the living conditions of people, the economic situation, the banking problems, the difficulties to get Bond notes, the hyper-inflation and the currency controls, I would say this is the perfect setting for the use of bitcoin to support the flow of money inside and out of the country as well as to support the community and its people. 
+
+You are a human rights activist and you know about the properties of bitcoin – being permissionless, transparent, open, non-inflatable, neutral and how it could support sending money in and out of the country circumventing currency controls. How do you estimate the chances for bitcoin adoption in Zimbabwe? 
+
+HUMAN RIGHTS Speaker
+
+The main problem for us is exchanging money. It is very difficult and costly. Even converting EcoCash to USD is dodgy. We all know someone who knows someone, who can convert money from one currency or form to another. But we do not use the banks. I assume the problem with bitcoin at the moment is exchanging it to U.S. dollar or the other way round. Because you can not pay your rent or food with bitcoin. So in general – it would be great, but at the moment I do not know how this can work.
+
+Anita Posch
+
+Yes, I interviewed a bitcoin trader here in Zimbabwe, who said that if you own bitcoin you basically own U.S. dollars. Because you will definitely find a person who exchanges it for you. Since cryptocurrency exchanges are outlawed people exchange peer-to-peer in specific WhatsApp or Facebook groups. So if you take on the effort to find those groups, then you can easily exchange bitcoin to USD. 
+
+HUMAN RIGHTS SPEAKER
+
+Oh really, that is great. I think it needs a combination of education, reassurance and convenience. As I said, the most important part at the moment would be the exchange possibilities of bitcoin to cash or USD. As long as that’s easy, I think the potential and the prospects for bitcoin adoption are pretty high. 
+
+Anita Posch
+
+Do you see other obstacles?
+
+HUMAN RIGHTS SPEAKER
+
+I guess liquidity and regulation. Because I do not know what the government is doing here aside from obviously blocking Golix, the only bitcoin exchange we had in Zimbabwe.
+
+Anita Posch
+
+A research paper that I found online – called “The Impact of Cryptocurrencies in Zimbabwe. An Analysis of Bitcoins” written by Anthony Tapiwa Mazikana – says that in 2017 the central bank categorically stated that cryptocurrencies are not welcome in Zimbabwe. The Reserve Bank made it clear that cryptos were endangering the public. 
+
+In 2018 the RBZ noted that it will be illegal to accept cryptos as collateral, opening accounts of exchanges, dealing with them and transfer or receipt of money in relating to purchase or sale of virtual currencies.
+
+Further on the research paper says:
+
+The RBZ believed they were “protecting the public” when they banned cryptocurrencies. Around 2018 many people were scammed by a ponzi scheme called MMM. A lot of the guiders made a fair bit of money, with many of them converting their “mavros” – the MMM digital currency – into Bitcoin. With those bitcoin they bought cars from Japan and continued to enjoy their money safely stored in Bitcoin wallets. 
+
+So – I assume that those people bought the Japanese cars on a website called “beforward,” it is still possible to buy cars with bitcoin there. Because the online entrepreneur I talked with, he said to me that many people exchanged their money into bitcoin over Golix  – to buy cars. I conclude that in the 2017 bitcoin boom many people in Zimbabwe were scammed by MMM or OneCoin and they reported that to the RBZ. And the RBZ used this as a reason to shut down the crypto exchange Golix and to forbid the handling of virtual currencies.
+
+Yes, scams are a big problem especially in countries where people are poor, in desperate need of money and have a lack of education because of the circumstances. That is why education to see the differences between bitcoin and scams is so important. Banning cryptocurrencies cannot be the answer. Firstly, because the technology in itself is not scamming or fraudulent, it’s people who use it with intent to defraud others; and secondly, bitcoin cannot be banned because it works permissionless and is decentralized. If you ban it in one country, other countries will not. So globally you will always be able to use it – maybe under the radar.
+
+As there are no exchanges in Zimbabwe, people establish groups of trust on social media and exchange peer-to-peer. I believe Satoshi Nakamoto built bitcoin exactly for that purpose. In one of the following episodes I speak with a teacher who is also a digital entrepreneur. She told me about the African philosophy of “Ubuntu” and how the narrative of bitcoin in southern Africa should be shifted from the western narrative of bitcoin as a self-sovereign freedom money to “bitcoin is community money.” In my view, these peer-to-peer groups on social media are exactly an expression of this community support. 
+
+TEACHER
+
+Ubuntu basically stands for, I am because you are the health of your community, the health of the people around you will determine your own personal well being. So I’ll give you an example of how we greet each other. So when we say good morning, it’s typically “Mamukase,” which is just asking, how did you wake up? The response to that is “Tamuka Mamumokau,” which means, we woke up well only if you woke up well. So it’s ingrained in our very language. It’s, it’s basically putting an emphasis on those around you in order to improve your own social standing, your own, your own well being as a person. So I feel like if we shift cryptocurrency for what it stands for aside, there’s a one sideways, yeah it’s against the system. It’s like this activist, it’s almost taken on the shade of activism. But if you look at it, then the benefit that I can if I use if I have bitcoin is just choose bitcoin, right? I can send money to my relatives who are in Malawi or in Namibia or in Ghana. Currently I can’t with our own currency, I can’t send money out freely and quickly. It’s usually a bit of a process and you have to get all sorts of approvals. But if cryptocurrency, if bitcoin allows me to quickly take care of the people around me, if we can sit down as a community and say, okay, we need to buy a new borehole for our community because we don’t have water, we haven’t had water for years and we need a communal borehole; if bitcoin allows us to buy and ship that borehole was they want the equipment or they want to bring it in from America or China or Europe, and we can do that without just by using our phones and not having to go through like, that’s an amazing thing. You know, if we look at it from a place of development, if we look at it from a place of helping the community and taking care of each other, [that] allows us to take care of each other without having to create so many barriers and so much red tape to get stuff done with money. I feel like when you change that narrative, you speak to something very deep within an African.”
+
+So now we are coming to the end of this episode: 
+
+All the people I talked with immediately understood the use case of bitcoin in Zimbabwe. But there is another obstacle. Internet use is expensive AND slow. Most of the people in Zimbabwe can not afford to pay for an internet connection. This is one of the reasons why EcoCash is so successful. One does not need to pay for the use upfront and one does not need an internet package to use the mobile money. It is also common to buy a “WhatsApp bundle” or a “Social Media bundle,” which are more affordable than open internet access, which is what you need to install a bitcoin wallet on your phone. Therefore, I suggest solutions, where bitcoin can be used inside those channels. The most used channels are WhatsApp, Facebook and Instagram. Twitter and Telegram are available, too, but not used widely. Telegram saw an influx of users while the internet shut down in Zimbabwe at the beginning of 2019, when people realized that they cannot use WhatsApp or facebook anymore but telegram was still working.
+
+In the next episode you will hear from two bitcoin and cryptocurrency users in Zimbabwe. They are early adopters who use bitcoin as rails to get paid for freelance work from foreign companies and are also bitcoin traders.
+
+If you like my show please subscribe to it in your podcast player and share the episode on social media. You can find additional pictures and videos from my travel on the episode page at bitcoinundco.com/en/africa2
+
+If you are a German speaker and want to start using bitcoin, then I recommend my book to you – it gives you a comprehensive jump start into becoming a bitcoin user, with recommendations and safety tips. You can buy it on Amazon or if you prefer to pay with bitcoin and lightning drop me a message at hello (at) anitaposch.com. 
+
+I am currently looking for new sponsors, so please feel free to send me a message, too.
+
+For new updates and education regarding the use of bitcoin please follow me on Twitter @anitaposch and subscribe to my newsletter at anitaposch.com/newsletter – posch with a c.
+
+Thanks for listening.
