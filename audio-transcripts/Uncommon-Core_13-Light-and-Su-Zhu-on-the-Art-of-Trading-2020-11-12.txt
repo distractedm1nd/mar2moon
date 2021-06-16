@@ -1,0 +1,341 @@
+[1:14] Hasu:
+
+I’m really excited to have you with us today Light, we usually don’t ask biography questions on this podcast as we are more about concepts, how to think and approach them from first principles, but given that this is your first interview ever, and you are one of the biggest pseudonymous prop trader on crypto Twitter, I think our audience is very interested in learning a bit more about your history. So, who is Light? 
+
+[1:46] Light:
+
+Thanks a lot, I’m super excited to join you guys, given the moment we find ourselves in crypto markets today. I got my start in trading equities, and equity options. About 10 years ago there is this great opportunity where activist short sellers such as Muddy Waters and Citrion were just starting out and they were publishing information on Twitter, so it was sort of an information trade and timing trade and if you saw it first on Twitter you shorted that thing into the ground and made tonnes. That trade survived for a couple years before people caught on and market makers started adjusting to it. 
+
+I then went back to playing poker which I played as a hobby when I was much younger and spun up trading capital that way. A lot of people made the active decision to go into crypto trading, I didn’t. I got incredibly lucky because back in 2016, a poker site that shall remain nameless would refuse to withdraw me and force me to take BTC. And so I decided that as soon as I got it I was going to dump this thing, I didn’t know anything about it and just so it happened they sent me the BTC at the bottom in 2016 at $365-370. That really dragged me into the space instead of me jumping into this space like everyone else. 
+
+In 2017 alts happened and everyone made a lot of money and we moved on trading mostly derivatives by 2017/2018. I think at some point we accounted for 1% of all the swap trading on Bitmax. The experience before in options sort of helped me go down this road, we also mix in alts when there’s meat on the bone and trade a lot of derivatives. In certain spots, my partner and I are some of the biggest call buyers in the market.
+
+[4:09] Hasu:
+
+As many listeners know, I also played online poker for a long time. What kind of format and steaks did you play? Just because when I hear someone played online poker, I usually can derive from if they were a low stakes grinder or played heads up or played one variant over the other, I can tell so much about their personality just from that.
+
+[4:31] Light:
+
+Sure. I started playing cash but I wasn’t cut from the correct cloth so after that I moved over to tournaments. I ended up being maybe top 50 in the world in terms of ROI by the time I retired. But you know that tournaments are incredibly soft compared to cash, the sort of calculus is much simpler, you just need to grind to make money. Much easier and simpler to make money than in online cash games. So that’s how I spun up capital for trading. 
+
+[5:25] Hasu:
+
+I guess that’s a typical story. 
+
+Someone asked a good question on Twitter, instead of when did you find crypto, when do you plan on leaving crypto? What are your goals to achieve here before you say “I’m done with this shit”?
+
+[5:45] Light:
+
+That is an incredible question. For me personally, I like the idea of fuck-you money and I’ll leave crypto when I stop having a material edge. I trade because I enjoy the game, and trading is almost identical to poker in that it’s a zero-sum game, a game of incomplete information and the one thing that makes trading different and better is that rules constantly change. The rules and meta changes in trading, which creates these incredible problems that reward people that can get a little bit closer to whatever the concept of truth is in these games. 
+
+[6:38] Hasu:
+
+Great point and I have similar experiences. I was a one-trick pony in poker, heads-up, short-handed games, I studied the shit out of that, then you can just play that for 10 years. For trading, I started looking more into BTC over the last few months, and I just find it so much more complex than poker. I thought the one take away from poker I found helpful is just having good bankroll/risk management. Can you talk about that?
+
+[7:20] Light:
+
+Yeah, I mean it’s easy to make money in markets, but it’s harder to figure out:
+
+The opportunity cost of capital;
+Where to deploy capital at any given time;
+How to manage risk;
+Understand what risks you are taking because there’s a lot of unknown unknowns to most participants. 
+Playing in poker tournaments taught me the value of asymmetric payoffs because you pay your buy-in and you get to win some multiple of that value. Asymmetric payoffs are very valuable and they also make risk management because being situated in a large-payoff-small-capped-downside situation simplifies the scenario. There will always be risks that you are not fully aware of. So structuring it in that particular way prevents you from having the floor being pulled out under you.
+
+[8:20] Hasu:
+
+I think this is a good segue into how you approach crypto markets. 
+
+I understand there are many approaches to trading and many different individual markets. Even inside the crypto market or equities market, there exist many different products, many different time zones etc. What would you say is your approach to trading crypto?
+
+[8:44] Light:
+
+I think I agree with what you said before that specialisation, or a one-trick pony, in zero-sum games is the way to maximise expected value. But crypto markets are still in their infancy, and they’re so soft and so much edge for the taking that I think if you are strong enough in a variety of disciplines, you can survive still as a generalist. That solves another problem that people have which is that man-with-hammer syndrome where, if all you do is trade alts, you will continuously long alts. But you can trade derivatives and alts and figure out what tools are correct for what kind of market. 
+
+From a high level, I blend behavioral economics and narratives and look at how that drives reflexive prices. I try to have a decent amount of asymmetric information as that gives me an edge v.s. other market participants. And then my favourite is just old school reading the tape of order flows to get a feel of the market. If you spend enough time just sitting and staring at market orders coming in from an aggregator of exchanges, you generally have a feel for certain situations that will trigger an emotional memory or pattern recognition in your brain of previous moments that this has happened. So with experience of markets, you’ll begin to notice certain things, something starts and then something else follows, and you can start to match the patterns in your head and start to find ones that fit correctly for different scenarios. 
+
+[10:31] Su Zhu:
+
+That is definitely interesting and something I’ve noticed too where the poker player switches over to crypto and brings 2 big edges: 
+
+Poker players can do pattern matching on a very bottom up perspective, that’s the market watching. A lot of people don’t put in the work and see how the prices have been moving. Just the willingness to do that gives you an edge over 90% of people.
+ The variety of games poker players are used to is also important as there are many trading styles too, but that versatility means they can find opportunities everywhere. 
+Right now in crypto, we can’t even agree on what is base money.  We can’t even agree on what is the value accrual of smart contract platforms, we can’t agree on the value of governance tokens…it’s definitely too early to be a specialist in this space. Today’s game might not exist later, for example, back in 2017 there were ICO specialists, people that priced pre-sale projects. It’s always good to zoom out and get the macro view. 
+
+[12:08] Hasu:
+
+Regarding what you said about watching the market and becoming this pattern watching machine, building this kind of intuition overtime. Robin Hansen (an economist) has this advice on Twitter: if your profession doesn’t have this kind of repetition, that’s equivalent to musicians training his notes everyday, then you are doing it wrong. Because every profession has something you can get incredible at at a basic level. 
+
+[12:42] Light:
+
+I think that well said and for me, that’s something where the constant ritual of improvement is visible. For people that want to get into trading, I always recommend “Jiro Dreams of Sushi”. It shows that slow process of becoming a master at something. So Robin is right in saying that if that process doesn’t exist or you can’t associate with a similar process, then something is wrong. One more thing is, there is nothing new under the sun, whether in markets or in life. Most of my ideas aren’t organic, they come from books I’ve read on market speculation, especially pre-regulatory, before the turn of the 20th century. You’ll see that crypto markets follow incredible parallels of what speculative markets have looked like for centuries. For instance, there used to be reminiscences of a time when every single trade would be printed on tape, and people could promote their stocks by running wash trades back and forth with themselves. That’s literally what some alts were doing with Coinmarketcap. On a big red day, if you got a coin with tight circulation, these guys could make it rip 50% and that’s free advertising because people like buying alts that are going up. 
+
+[14:22] Hasu:
+
+This study of pre-regulatory “raw markets” where you get these raw emotions, animal spirits that you have in crypto and then predict price and trade behaviours is incredible. 
+
+I am very interested in learning how to hold myself accountable for trades, right now I don’t have this kind feedback loop yet where I can make a decision that’s closed in itself and being able to say whether it’s good or bad afterwards. Please walk me through how you guys do this.
+
+[15:38] Su Zhu：
+
+It’s obviously the holy grail. Anything I say now I myself can’t do half the time. 
+
+First you need an idea of what your thesis is, going into the trade.
+Then you have to have an invalidation – both from price point of view and from a thesis point of view. 
+Some people get into these spots where they don’t have an invalidation for their idea from a price point of view and go bankrupt. Because no matter how smart you are, you are still going to be wrong a lot of the time. The way society is structured is such that we don’t like to be wrong. Your friend will not tell you your fly is down for example, no one wants to tell you you are wrong. And I think that admitting you are wrong or your thesis is flawed, that’s the hardest thing about trading for so many people. 
+
+So when the market is telling you you are wrong via your profit, if you then had built-in invalidation for your thesis, that would save you a lot of money. Because if prices start moving against you quite heavily, it could mean it’s a better buy opportunity, but in general it means you misread the market. On the flip side of that is you need to have a rough idea of what it would look like if you were right and how much you plan to make when you are really right. 
+
+This gets back to Light was saying about asymmetry risk reward payoff structure. In general it’s a cliche in crypto that you should still try to target a reward that is higher than your risk. Whether it’s an arb trade or directional trade, you want to be in a position to be right more than 50% of time and make much more than 1:1. If you can make 3:1 half the time, that’s a great trade. 
+
+In 2018 people buy pre-sale and if the token price goes down, they buy more because it’s lower than their entry price. Soon they realise they are holding a lot of it and liquidity dries up as well. 
+
+Being able to admit you are wrong, and stop, is a huge part of the battle. 
+
+[18:22] Light:
+
+Sometimes you forget these things, then you rediscover them, and forget them again as you go through your career. To build on that, there is 3 things I found helpful: 
+
+The successful poker player always learns to optimise the process, and not the result. So this is the expected value v.s. outcome logic. If you go AA v.s. KK pre-flop, you will win maybe 19-20% of the time. If he finds a King on the river, does that mean you made a bad decision? It’s not so straight forward with markets because we are working with incomplete information and outcomes can be so different than anything we can expect a-priori. So a lot of people conflate the volatility and addiction to volatility with the actual result that happened, and they focus on that instead of the result. This is how the market tricks you. I think that’s also why you have guys that are 50-60 years old and have been making the same mistakes for 30 years straight. They just never focused on the process and introspective that process and tried to improve that process. 
+People also conflate timeframes. Similar to what Su was saying, you start with what is a trade and suddenly you are a bag holder. There is nothing more dangerous than having that happen to you, because the human mind is pretty amazing when it comes to rationalising things. If you start a trade and market moves against you, and as in Su’s example, in a market where returns are heavily autocorrelated, you’ll just get demolished if you keep adding. 
+Everyone gets what they want out of the markets. Most guys come to the market, they want to be right and prove they are smart and know what they are doing. And they can get that everytime if that’s what they want. If you want to gamble, you can do that with crypto, but if you want to make money, it’s actually boring and tedious and not fun, and requires a lot of patience. It’s the same as playing fun poker with friends where you have a few drinks and you vpip 50% of your hands and splash around with your boys. But playing good poker very rarely involves that, especially on a 9-handed table. 
+[21:04] Hasu:
+
+A key insight I had with poker is simplifying the decision tree. Usually you have an insane decision tree, but you don’t know which of the decisions actually matter, i.e. which makes you money. This is refined through using chess engines like softwares called solvers. It creates toy games which the computer then solves and you can study the result. So this actually showed me that the human mind doesn’t actually work all that different from the kind of regret minimization algorithms that softwares uses to solve poker. For example, I have 50 hands that are all the same, A-Q, K-Q, K-J, doesn’t matter, all top pairs are really the same on this board. This can dramatically simplify your decision tree. Another example is when your opponent raises preflop and you call out of position. You have a lot of boards where the opponent’s range hits the flop so much better than your’s and so you should never lead out into the pot. You should check and see if the opponent bets or not and react. A lot of players can do it right in this kind of very simple situation on the flop order position but scenarios like this exist all over the game tree.
+
+I would like to know how I can apply all of this to trading. For example, do I set all trades to the same time frame and I have to say whether they are validated or invalidated a fixed time unit and do I make them all the same size? Just to remove this kind of complexity that may not be relevant but can stress me out. 
+
+[23:56] Light:
+
+I think there is a lot of unpack there. You notice the mediocre players that never made it would come to you with specific hands histories: 2nd set on the turn, bet, a guy check raises, what do I do? But this is a decision that’s so nebulous that has such minimal EV between the different options, a couple bips per 100 maybe. But he goes and opens A-J under the gun, 9-handed, on a hard table. He would hemorrhage money. 
+
+So finding the leaks first is super important and also needs to have the ability to record and look backwards. You pick up all sorts of cognitive biases that are brought on by volatility in markets, also by the addictive nature of information and price movement and pain of losses. All these biases that come from prospect theory that behavioral economists have been talking about for a couple decades. So you need to have a recording of what you’ve done and why you did it. This is especially important for discretionary traders, if you are mostly delta neutral, that’s a different game, but for people that are directional and discretionary it’s incredibly important to be able to look back on trades and be able to break them down. Otherwise you’ll keep making the same mistakes over and over. That way you can also find leaks, instead of just firing off on different exchanges and betting millions of dollars on some random hunch that you have or just because you are angry at someone that day is equivalent to playing poker without poker tracker or hand histories. It’s insane when you look back on it. 
+
+Current market is like poker back in 2000 or 2005, you could sit out of a sit-n-go game, go to the store, buy some cigarettes, 5 people would’ve been busted by the time you are back and you’ll finish with a min cash. That’s where we are at still but the game will get harder and harder, the goal for you as a trader is to improve your edge versus the market in a zero-sum game than your current competitors and those who are coming into the space. I knew back in 2017 that this shit would happen, but I underestimated how fast and how quickly incredible smart people would come into the space and deteriorate edges. Especially on the delta-neutral side because that was trade legacy guys could port over, like cash carry sort of trades. They stay away from directionals because they still get burned and don’t fully trust it, as it’s super scary when the risk is not definable to them. That edge is more robust but it will also disappear slowly as the market moves towards more efficiency. 
+
+[27:07] Su Zhu:
+
+One way that we can simplify is that you can bucket crypto markets into different regimes:
+
+BTC regimes;
+Application layer regimes;
+The old alt style regimes;
+Protocol regimes. 
+There is not that much sample size yet, but the human psychology is such that if you have a structural view on some of these sectors, it helps to inform the trade directions. Back in 2018 open interests were massive, XRP/BTC were bought at 20% contango in May 2018 and EOS/BTC at 15% contango. The opportunities for being short alts against BTC back in 2018 were tremendous. 
+
+Everyone looks back retrospectively and says that’s obvious, but very few people were looking at it then and thinking that way. For example, Novogratz said “public markets are coming down but private markets are still great”, he was still trying to buy ICOs and not getting into these trades I mentioned above. 
+
+So one way to simplify things is to know your baseline view. Having that view will allow you to take trades that you believe you can be asymmetric at. For example, if everyone is bullish on alts or DeFi coins, and you think you can spot the top whether because you notice no new money coming in or for other reasons, that would give you a huge edge. You can be invalidated simply by having more money come into the market. This has the benefit of a nice half-life which helps you simplify the trade (i.e. you can quickly validate your views). 
+
+Your thought process then simplifies to: 
+
+Here is my trade;
+Here is my thesis;
+I have this schematic for market movements;
+We are here in the cycle. 
+Being able to be proven wrong means you can build a feel for that market over time. 
+
+To sum up, you need an idea of who you are, what information you have and what study you have done. If you spend time on the tape and reading the market, maybe you can spot the downtrend more than 50% of the time because you recognise the signs. If you look at alts a lot, you can properly now when a small cap is about to fork or some other event. There’s all these ways to make money, but you have to be able to define what your general schematic and logic is. You also need to know how you plan on being better than most people at it. 
+
+[30:29] Light:
+
+Dead-on. “It isn’t the things you don’t know, but the things you think you know that gets you”, my friend said this to me and it floored me. People get in trouble all the time because they have these complex, convoluted frameworks. Also, important is making the distinction between investing and trading, people tend to lump them together. Investment in this space requires ontological questions: what is bitcoin, what is an alt, how do we value these. Trading doesn’t require that, trading is having maximum return for appropriate amount of risk, then running that over and over, and trying each time to capture an expected value. 
+
+[31:44] Su Zhu:
+
+With DeFi as well. I remember when DeFi made a blow off top, and I told people about it. I said this will last a few weeks instead of the usual 2-3 days. They said “sure, some assets will go down, but I have blue chips which are immune”. I think there is a lot of composability on the way up with alts, but there is also a lot of composability down. People only realise the upward composability: TVL locked tied together each project and they go up together. But when things start to come down, their tokens are suddenly decoupled from this reality. 
+
+This was apparent to me back in 2008 when I first started trading stocks. We all knew at the time that correlation between stocks goes to 1 on the way down, in a bull market correlation can be a bit dispersed, but heavily correlated on the downside. Having that knowledge means I could get outside my head and ask, do I have to hedge here? What would a panic look like? 
+
+[33:18] Light:
+
+You need to hold yourself accountable to something, and you need to decide whether you are investing, speculating or trading. As an investor, you are targeting some sort of equilibrium value that is hidden from you. Then the price oscillates around this mean driven by supply demand and investor psychology. You can think of the oscillating prices as beings in Plato’s cave, you can’t see them, they are obscured from you and price is the shadow being illuminated. 
+
+As an investor, you therefore need a philosophical framework for what value is, how its reached etc. However, as a trader, and you tried to hold yourself to that standard of accountability, having those beliefs that are absolute, is only dangerous. As a trader, you have to hold yourself to something different. 
+
+Currently it’s difficult to put a value on projects such as Compound, because we don’t have all the data. Yet you get people to try to prove their point by forcing a thesis onto things they want to buy or are already long. The correct way, even from the scientific process, is to try to nullify the hypothesis. For example, everytime I think I have a trade idea, I take that idea and try to find all the things that could go wrong with it. If I can’t come up with something more conclusive, if I can’t nullify the hypothesis, then I have a higher degree of confidence in that idea. If you haven’t been validating your ideas at that level, then you are doing it the wrong way. There is no accountability because you can always find other reasons to rationalise your behaviour, especially because all the behavioural foibles that humans have. Why can’t people sell on the way down even though they are supposed to hold all the way through the alt cycle, and then sell when it’s obviously cracked. Because they regret not selling at the top and they hope prices will return to that level, but they end up selling at the bottom due to panic. 
+
+They keep trying to find reasons to justify what they want rather than what reality is. Your job as a trader is to listen to the market, and try to reduce your inherent biases and prevent yourself from being one of the losers. 
+
+[36:43] Hasu:
+
+Few weeks ago, I think it was after Bitmax was investigated by the SEC, I asked on Twitter, should I panic? The response was, No, it’s too late for that. This illustrates the saying, you skate to where the puck is going. Either you panic immediately, or you shouldn’t panic at all. 
+
+[37:16] Light:
+
+That Dove-tails nicely into figuring out the state of the market. The way that the market behaves when it comes to responding to news, reveals information from participants. So when you have this non-stop series of bad news, but the market barely budges, and a few pieces of bullish news causes the market to rip, was it the news or market structure that’s causing this reaction? It’s probably a combination of both. 
+
+People sometimes miss the forest from the tree, they say that bull markets are made by climbing a wall of worry and bear markets are built on hope and you can see that. For example, product launch and prices tanks, this is a reflective asset that is built on narratives so when people aren’t making money, some of them will dump it. People cling onto narratives such as these. 
+
+There is an old story that goes like this: every time a journalist has to write about why copper did such and such, they start by pulling out all these reasons, they feel the need to come up with some reason to explain movements, and one time this journalist for lack of better reason, simply wrote “market moved up due to more buyers than sellers”. This is sort of what’s happening in risk markets today, people need to deploy fiat and bitcoin fits the narrative. 
+
+[39:18] Hasu:
+
+I do want to talk about the macro side later, but how are you currently thinking about the crypto market, what is your thesis for the next couple of months?
+
+[39:32] Light:
+
+A few months ago I was an honest farmer. The opportunities there were absolutely incredible in terms of Sharpe ratio. The narrative was basically:
+
+This is a new and exciting thing with unlimited potential. 
+Then that narrative starts to break down, when students and sales focused products begin to attract capital, it becomes a tail wagging the dog sort of scenario. Su mentioned this earlier on another podcast, when supply of products exceeds demand, this level of euphoria will have been too much. The Uniswap token drop made people complacent and delayed the fall, it prolonged the hope. Also I believe people held on because they were greedy and wanted to make more and wanted more out of the market which is always dangerous. 
+
+In September I dumped the last of my alts. I timed it with the Uniswap drop, because it was an incredible opportunity for exit liquidity. The weekend following my final sale, alts ripped and I felt foolish but I had to take advantage of the exit liquidity and people who were disciplined, those were the days they were selling. You don’t sell on the way up, because these things always go way further than you can anticipate, you sell on that first upthrust when it’s probable the market had topped and you have a validation because if it hasn’t topped you just get back in, which is ok. 
+
+I have since rotated into stables and BTC. I thought the market was uncertain back then and was worried about alts and DeFi being a contagion on BTC. Then I saw BTC wasn’t going down, so I started adding a lot of naked calls. This was a source of alpha for a lot of people even if you don’t feel comfortable trading options. Order flows in option markets come from 2 sources: 
+
+People that are hungry for yield. These typically are traditional macro guys, buying spot and selling covered calls. 
+Structured product flow that is used as a lure for miners and other whales who are fairly unsophisticated financially but would like some consistent and steady income stream. When markets are quiet, they are willing to sell options for the income, but when a call is sold, you give the reason for owning an asset such as BTC. 
+Structurally, I think these forces mean implied volatility and hence option prices are consistently mispriced. If you are careful about timing for buying volatility, you get to buy cheap leverage on BTC and make for an incredible opportunity. I don’t know how many times you just run over people by just buying a shit tonne of calls, I think April 2019 was mind-boggling people were just religiously selling upside. There was a Bloomberg article back then saying “In crypto bear market, survivors find a rare lifeline” and that lifeline was selling BTC covered calls at $3000-4000 in the bottom of the market in 2019. The heuristics here is when people get really gung-ho about selling volatility, because they don’t think there is upside, that’s when the market has the most upside and it’s being sold to you for the cheapest prices. 
+
+Su, I think you have convinced me that the pain trade has a higher probability than it should have of happening. Part of the game involves some strong hands getting in early and then they dump on those that FOMO in. The strong hands do this near the end of the cycle and then rotate back. These markets are therefore a money game and money game requires liquidity. Liquidity to facilitate the constant flows between alts and BTC and stables, and people don’t talk about the pumps because action on exchanges is driven by alts movement, traders need the liquidity, ICO teams need it because they can’t sell tokens unless people need it. So the pain trade keeps happening because of this great lie (that some coins are pumped on purpose). 
+
+I mean, if you were to go into a coma for 10 years and you have the chance now to set your crypto portfolio, you would probably own BTC, but you wouldn’t be so sure about Compound or Filecoin. I don’t have the answer here, at least I don’t want to say what my answer is.  
+
+[45:32] Su Zhu:
+
+The beauty of options is that you don’t have to look at it the same way. It’s a lot like poker in this regard. Say you are a fish, you don’t have to care about EV, about VPIP…you just play your hand. There is also a lot of hoping for fish players, they want to hit that flush. But pros don’t hope for different cards, they think about how to play on different cards. Options are like poker, in that the people that are trading it are not from a directional view, these people have a vague hope that they get their yield. 
+
+People prefer the physically delivered options in the OTC market also in part because they never have to think about PnL. Because if you sell calls on your BTC and the price goes through the roof, on Deribit, it will show you are down a shitload of money because your unrealised PnL is super negative, but if you sell an OTC physical delivered call, nobody is sending you any statement showing you you are down money, you just have to send your coins at expiry, which you would have sold anyway. 
+
+This is the trick of the mind and it creates a great 2 way market, because you then have people saying “I like the probability of this trade” and another set of people saying “I like the way the cash flows and risk profiles of this trade”. 
+
+[47:29] Light:
+
+That’s how they get hit all the time, because everyone wants the consistent high probability payoffs and they don’t like consistent losing in a death by a thousand cuts scenario. So these markets are very emotional and gross errors in terms of expected value calculation are made over and over because they are just satisfying a primal need to feel good about themselves. If you want to feel good in the markets and have small and consistent wins then blow up or pass up once in a lifetime opportunities by selling upside volatility, you can do that. Some people are going to be happy to soak that up.
+
+We’ve been probably one of the largest buyers of these covered calls that’s been happening every month. People come to us directly now because they know we are the marks basically. And we keep buying. We talked about this a couple months ago, Su and I. We are constantly amazed at people overselling this stuff. They are doing this because it’s currently working and volatility is coming in below implied, but they shouldn’t assume that’s going to be pinned at that level forever. Su also said, how do people not remember previous regimes. It’s almost like the market participants gets tricked into thinking whatever is now will continue to happen in the future without ever thinking about things that could change. 
+
+[49:30] Hasu:
+
+When you have a view on the market such as “BTC probably will go up in the medium term”, how do you figure out what is the best way to express that view with a trade, what instruments do you use etc.
+
+[49:48] Light:
+
+I structure most of my positioning off of couple things:
+
+Liquidity. When you get to a certain size, you will need to start selling and buying in suboptimal spots. For example, Polychain buying YFI. When you get to a certain size, you have to buy on the way down and sell on the way up. That has impacts ex-ante, when you decide to enter a trade, whether or not the liquidity will be there for you to exit and exit cleanly. The slippage and price impact all hurt the EV of the trade so the bigger the position that you take, the higher the threshold has to be in terms of EV or Sharpe of that trade. Because if it’s very marginal, other price impacts are just going to eat up any edge that you have and you are reduced to flipping coins with people you don’t know.
+Manage the risk of the trade. After the market imploded March 2020, going margin long on Bitmex 100x leverage on multiple accounts was an incredible play because the mark price for liquidation was trading at 4000 when futures were trading at 3000, I can’t remember the exact numbers, but there was a 10% discrepancy. Your longs now have a 10% buffer instead of the usual 60 basis points that Bitmex offers. So you get capped downside, you get to collect funding and you get the 100x leverage and you destroy when the market rips. Then we got to 9-12k on the pull back, I rotated into spot instead of margin longs that could trap me with no liquidity if I’m wrong. I want calls, which is another way to cap my downside but with an upside exposure in case my macro thesis is correct. And calls let me do this without getting me stuck in a sinking ship if I’m wrong. This combines with the fact people were selling calls dirty cheap. That’s why Deribit is important as it offers traders to tailor a risk profile of their trades. Once deployed, traders have more room to be wrong and can take bigger positions. 
+[53:25] Hasu:
+
+What do you think about ethereum Su, why are you bearish?
+
+[54:05] Su Zhu:
+
+To preface what I’m about to say, I shitpost a lot in general. 
+
+I think BTC is the clear denomination for the biggest players in crypto, that’s your CZs and miners and exchanges. For them, it is the base currency. When Chamath Palihapitiya said he was going to put his family office into 3 assets he chose BTC, AMZN and Golden State Warriors. He didn’t choose a basket of crypto currency or a basket of internet stocks. Michael Saylor says that you want to buy the one that is the clear dominant factor and bet on the rest of the world coming to see that. That’s essentially how you get the network effect to work for you. The network effect is what bitcoin cash people didn’t understand, as it is meaningless to say you have better utility and features, when no one is using it. So I think BTC has the network effect as the base money and that is very hard to overcome. 
+
+Furthermore, I don’t think there need to be 2 base monies in crypto. 2017 ETH also has had several high wicks and now people still look back at those wicks thinking ETH could reach that again. I think this line of thinking is dangerous. The first big wick for ETH was May 2017. This was a period before BTC hard fork and people were scared about flippening. People were scared about the future of BTC. Raoul Paul said he sold all his BTC at $2000. Then later on in 2017 you had BCH/BTC at 0.45. That was a very different environment compared to what we have now. Today, BTC is 40% more Lindy and in terms of years normal people have seen BTC is 10x more Lindy. People have stopped treating BTC as a scam, and that has been replaced by FOMO. 
+
+[57:23] Hasu:
+
+Even the people who used to call BTC a scam, especially those from the ETH community and altcoin community in general, now call it a “meme coin” or a religion coin. They don’t realise how bullish this title is. 
+
+[57:52] Light:
+
+Robert Schiller, a Nobel prize winning economist, wrote a book called “Narrative Economics” and the first chapter is on BTC. We’ve just spent 10 years trying to convince the average 50-60 year old family office manager that BTC is not a pyramid or a Ponzi scheme and it’s ludicrous for people to ask which corporation will be the first to put anything other than BTC in their treasury. That’s a bridge too far I think, these people are barely on board with magical internet money, let alone something like ETH. 
+
+My views on this haven’t changed since John Pfeffer wrote “An (Institutional) Investor’s Take on Cryptoassets”. It was the most lucid attempt at valuing both BTC and ETH to this day, and I’ve yet to see a compelling rebuttal to it. 
+
+BTC’s valuation comes from the store of value narrative whereas ETH and alts have always just been speculative vehicles for a transfer of wealth and the ability to gamble. That’s what I think gives these altcoins value, they are also trend following, for example ETH’s ETH 2.0 narrative. The problem with that is sometimes that narrative breaks down and they don’t deliver. Price and narrative are correlated and falling prices will ossify and further weaken the narrative. ETH is a dark forest and that creates a lot of uncertainty that makes valuation difficult. Since no one knows how to value it, we have to resort to narratives and looking at price. So there is a whole reflexivity around ETH’s price and value, the higher the price the higher the value and if prices fall, then it’s a piece of trash. 
+
+We are currently going through an underperforming stage of ETH and its underperforming on an absolute basis (as opposed to risk-adjusted basis), as in numbers on CoinGecko basis, which is insane. Because you need to demand so much more return to take on the risk of owning ETH v.s. BTC. And because you are not getting that return, people are more inclined to hold BTC. As people begin to realise this, they rotate out of alts, out of ETH and capitulate into BTC. 
+
+I’ve been getting some messages recently asking if they should rotate out of BTC into alts again. I think that the burden of proof is on people to prove you should move out of this asset that has an incredible macro backdrop and is currently outperforming everything else on a risk-adjusted basis and buy alts because you think that trend will change. It doesn’t make sense to me as a reflexive asset and I haven’t heard of any compelling argument for BTC stopping outperforming. People seem to want to be contrarian for the sake of it, rather than because they have a good reason to do so. For example, today after BTC paused at 13k, people started punting on alts again. These short term rotations I think will get punished and everyone wants a continuation of alt season right now but the pain-trade could be that the next alt season is 1-2 years away with the caveat that at some point, some of DeFi will do very well again. 
+
+DeFi does have some very transformative things happening in that space such as valuable regulatory arbitrage. I think if Pfeffer updated his paper now, he would probably say that we are getting closer to getting value capture mechanisms on these tokens whereas in 2017 there was none of that. 
+
+[1:02:30] Su Zhu:
+
+Another thing is crypto natives massively project their own views on normal people that are coming in. At the same time, they are incredibly unaware of how normal people think. 
+
+A lot of the BTC buying over the next couple years I think will not be people trying to get rich but people who are trying to keep pace. That’s actually why people buy most things in all markets. When people buy equities, its because their neighbours and everyone they know buys equities. That’s what’s creating this shelling point because people normally don’t wake up thinking they can outsmart everyone. Plebs do, and plebs might be able to get away with it in some parts of the market but in general, for example with the 50-60 year old family office guy, he’s not being risk averse to keep his job, he’s also trying to align himself with other investors, going to the right parties etc. If that family office guy goes to the wrong parties and invests in the wrong assets, not only does he lose money from that thing go to 0, he also didn’t go to the right parties and missed out on those upsides. Alts will always be around, simply as a result of the wealth effect, but I don’t think any coin/token can track BTC as a base money going into a more hyper monetisation phase, because there is no reason to. 
+
+Therefore I think ETH is currently in a more precarious situation than people realise:
+
+The ETH 2.0 roadmap is very complex. People are beginning to realise the research has failed on a lot of it. The roll-up roadmap is promising but I don’t think it will deliver the things people are hyping it to be. 
+This is backdropped with credible contenders for DeFi and smart contract chains. There is Polkadot, which is 3 years in the making, you have Cosmos which is again several years in the making. These are all live mainnet projects that can attract serious developers. 
+I think eventually ETH will be valued just as a smart contract platform instead of a base currency. And as it becomes demonetised, it will leak value to BTC, while having to compete for the nebulous smart contract market capital share pie which no one yet figured out how to value. 
+
+On top of all this, people are starting to notice that the application layer of all these coins should be worth the most. This is something I agree with. The smartest minds buidling on ETH tell me to buy the tokens that are built on ETH, rather than ETH itself. Similarly, in Web 2.0, you had Zynga though they struggled to make money because they got deplatformed, it still accrued a lot of users. In Web 3.0 you would assume the dAPPs will accrue most of the value relative to the protocol layer. It wouldn’t make sense not to. 
+
+I think this vision of where you have massive application layers that are on all chains, on Solana, on Polkadot, on ETH and users don’t know they are using blockchain. I think it makes less sense for smart contracts to achieve some kind of maximalism, which people are trying to assign to it now. This is quite short sighted and its primarily  bag-holder thesis. Why does ETH deserve to have the smart contract mantle? It can’t be because they have the best community fundamentally.
+
+[1:07:05] Hasu:
+
+People don’t realise that every roll-up chain is itself a separate blockchain. 
+
+Between ETH roll-ups and Polkadot and Cosmos, you have the same kind of coordination game and UX is similar between them. This is one reason why I’m currently structurally bearish towards ETH. Second reason I’m bearish on ETH is the competition for value which Su you touched on. Anyone that is constructive on DeFi, will they buy ETH as a sort of ETF on  the whole DeFi space, are they going to buy any DeFi tokens?
+
+ In the future, every roll-up surely will have its own token as well, because they are all VC backed and VCs all need to exit at some stage. So there’s roll-up tokens, there’s application tokens, and then there’s also the protocol base layer tokens. 
+
+Then you have BTC. BTC is the focal point of all these narratives, as opposed to having many tokens to express many narratives. ETH gives a reverse shelling point almost. 
+
+[1:08:46] Light:
+
+You guys scared me now. For anyone that has ETH exposure, you do have this enormous narrative problem. I’m in this space everyday and the fact I don’t get some of the tech points to a marked narrative problem. BTC’s current narrative is incredibly elegant and simple, everyone can agree on it. With ETH, I don’t even know what the narrative is anymore, I don’t know how to sell it to people. Narrative is key for price appreciation and currently it doesn’t exist or it’s conflicted for ETH. The fact that it is so complex and convoluted means it will have difficulty quickly spreading to people that could potentially buy this asset. This seems to be incredibly worrying from a trading perspective. 
+
+Another, simpler thing is just that ETH is underperforming BTC. The market currently is clearly signaling you should be in one asset, when people see that BTC is outperforming they will come up with a reason to explain that and they make sure they are long BTC. You just don’t want to be the last guy to catch on or still fighting his mental biases when everyone else has made money. These are trending autocorrelated markets, because we don’t know what these things are worth, price becomes the leading value indicator. This means everyone follows the smart money and other people are doing by voting with their wallets and buying BTC.
+
+[1:10:36] Hasu:
+
+The last BTC soft fork was 3 years ago. People say BTC is stagnating, that it’s not evolving. I think what’s really happening is that normal people, those that don’t pay attention to crypto see this lack of activity as positive. Nothing happening is the best thing that could be happening to BTC, that is the kind of track record that takes to build the Lindy Effect. 
+
+[1:11:23] Light:
+
+Notwithstanding the different sort of volatility of alts in terms of their monetary policy, in terms of the technology, you almost can’t establish any sort of Lindy Effect because it’s constantly pivoting. Investors need solidity to compensate them for the enormous reputational risk. If Michael Saylor is wrong, he might not care but other people in his shoes will become that crazy dude that bought this obvious scam and went to 0. 
+
+Having BTC building a track record quietly, and predictably is super important for these people. They don’t want to buy into ETH and hear Vitalik skipping ETH 2.0 and straight to ETH 3.0, they don’t need that kind of risk. 
+
+[1:12:37] Hasu:
+
+I saw Paul Tudor Jones on CNBC saying something interesting, he said “I’ve never seen a store of value where you also have such great intellectual capital behind it”. 
+
+When you short the bond market as an inflation hedge, you are really betting on the fallacy of mankind rather than its ingenuity. Relative to BTC, other inflation hedges are fundamentally bearish on humanity, BTC is fundamentally a bullish hedge. Even though I always felt that, I’ve never seen it expressed in such a way. BTC is always sold as the leading indicator of something bad happening in the world. What do you guys think about that?
+
+[1:13:44] Su Zhu:
+
+You can see the optimism in the way that the average BTC holder views something like the subsidy problem. BTC having a fee problem is the middle of the bell curve view. The lower side of the bell curve don’t even know what a fee subsidy is and don’t care. The other side thinks that there will be a way because we collectively gathered around this numeraire. There is an optimism on both sides that ingenuity will find a way to preserve this value. The pessimistic view is that nothing gets figured out and it all goes to 0. 
+
+The fact that BTC buyers don’t even need to know much about it but believe in this shared concept of digital money, that was the first incipient blockchain, that’s why guys like Paul Tudor Jones see it as inherently optimistic. In the past, people didn’t quite see this optimism as clearly. 
+
+[1:15:25] Light:
+
+It’s a strange place because it attracts some of the smartest and some of the stupidest people that I’ve ever encountered. It’s fitting and Ben Hunt puts it nicely when he says “you don’t want to be too smart by one half, because then you don’t get anything”. Another example is that meme with the 120 iq guy, who’s just sitting in the middle getting demolished on both sides. The guy with the 80 iq and the guy with 140 iq, those guys are up. 
+
+People like Paul Tudor Jones has a level of thought that is fairly unique given the valuation in the space and there are few people, including some YouTubers that can compose similar quality thoughts. Based on the ratio of valuation of the space to the amount of people participating in it, on that relative basis, it all seems very cheap still, compared to things like gold. 
+
+[1:16:41] Hasu:
+
+Very hard to have a constructive view on something like gold. Gold on the very long term is an inherently regressive bet. 
+
+[1:16:54] Light:
+
+I think maybe that’s why this space attracts some of these people because there is a way on a normative basis to feel positively about this space. While I keep my philosophical bents at the door when I trade, its unquestionably compelling to me and I agree with Paul Tudor Jones that BTC highlights the positives in humanity, its unshackled from some of the things we’ve developed as a society and by our governments, that we may not have done intentionally. Crypto offers a way potentially to rethink the system.
+
+I never find the negative side of the BTC argument attractive. If the financial system collapses I’ll be eating cans of cat food and not worrying about my portfolio. To me BTC is a potential step forward, a humanistic solution. 
+
+[1:17:49] Hasu:
+
+Su and I wrote a series of skeptical articles on BTC in 2019. Humanity advances with cooperation and you get cooperation via social institutions and they work by restricting human behaviour. 
+
+The restriction is what enables trust and cooperation. Knowing that the other guy can’t screw you, in ways you can’t predict or can’t insure against, that’s fundamentally what BTC and smart contracts ensure. So even though this new tech seems restrictive, it has low throughput, cumbersome PoW etc, these features will ultimately be what drives cooperation and in-turn, growth of humanity. 
+
+[1:18:46] Su Zhu:
+
+Trust minimisation is the huge concept there and it also gets back to this question of “can there be another base money in crypto”. I don’t think you can get that kind of trust minimisation anywhere else. It is very hard to replicate the fair launch, you can’t replicate the idea that it will become a new store of value. The cardinality of it all, is well understood by Charma and the wealthiest people in our society. 
+
+Another example of this idea of value consensus among the rich is prime real estate. It’s not something they can have different opinions on. We can all agree that the parts of Manhattan nearest to Central Park on the south are the best parts and need to be worth the most. 
+
+Wealthy people are used to this idea of a shelling point for stores of value. Painting/artist, property, antique, crypto etc. While the technologist of crypto created alot of cool stuff for us to use, I think ultimately the value accrual of most natives of crypto will go to the money use case where it has enabled trust minimised currency to exist. These will all feedback into BTC and make it more viable, show people what these property are that makes it so valuable and in the process showing people why it can’t be replicated easily. 
+
+[1:20:49] Light:
+
+You made a pretty compelling case for shelling point arguments for BTC, it warrants asking whether that thesis can be wrong and whether an alt or some combination of them can achieve that game theory solution (of establishing trust) as well. Where a lot of people trip over is that they say such and such token/coin is scarce within its own system, and they only view it in that vacuum rather than understand the whole context where there really is no scarcity within alts versus BTC because there are so many alts. 
+
+Each of the seemingly separate universes of alts together impedes their claim to scarcity in the solar system. As an alt, you face orders of magnitudes more difficulty of reaching a shelling point because of this lack of scarcity and differentiation. And for BTC that narrative couldn’t be simpler. Everytime a legacy store of value projects dies, it just reinforces BTC’s dominance. 
+
+After your first alt cycle and you say you want to find the next BTC because you need to catch up to these people, but these older people that have seen a few cycles and they’ve seen these alts die over and over. If you go into a coma tomorrow, your portfolio will not have XRP, you probably will have 95% in BTC, or a market weighted allocation between BTC and ETH and then some alts. It might even be 100% BTC at this point. 
+
+It’s an interesting time to talk about this because we are clearly out of the analog of the Nikkei in the 80s quite conclusively on BTC. Price ossified narratives and you see that BTC is clearly not having a death rattle the way the Nikkei did. The way I look at BTC now, the macro backdrop, I think it’s more likely than not that we clear all time highs at this point and can do this within the next 12 months. This might seem outrageous based on Skew’s model which says 20k or over is currently priced at 7%, this seems ridiculously cheap to me.
