@@ -44,6 +44,31 @@ def generate_text_chunks(subtitle_file, chunk_size, min_chunk_size):
     return text_chunks, chunk_start_times, chunk_end_times
 
 
+def auto_label_text_chunk(text, labels):
+    """Tries to label a text chunk by finding a keyword in the text
+
+    Parameters
+    ----------
+    text : str
+        The text chunk
+    labels : dict
+        A dict of possible labels (keys in dict). The values of the dict are keywords for the labels.
+        If a keyword is found in the text the text chunk will be labelled with the corresponding label.
+
+    Returns
+    -------
+    Returns a label for the text. "None" if no suitable label was found.
+    """
+
+    for label in labels:
+        regex_str = "|".join(labels[label])
+        r = re.compile(regex_str, flags=re.I)
+        if re.search(r, text) is not None:
+            return label
+
+    return "None"
+
+
 def get_words_with_end_times(subtitle_file):
     """Get all words from a subtitle file (vtt format) with their corresponding end timestamps
 

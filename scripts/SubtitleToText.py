@@ -28,7 +28,7 @@ def convert_subtitle_files(files, out_files, remove_new_lines=True):
 
 def convert_subtitle_file(subs_file, out_file, remove_new_lines=True):
     """Converts a .srt subtitle file to plain text
-    
+
     """
 
     bad_words = ['-->', '</c>']
