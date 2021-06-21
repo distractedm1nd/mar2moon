@@ -1,6 +1,41 @@
 import re
 
 
+def generate_text_chunks(subtitle_file, chunk_size, min_chunk_size):
+    """Generates text chunks with start and end timestamps from a subtitle file.
+
+    Parameters
+    ----------
+    subtitle_file : str
+        Paths of the subtitle file to be used.
+    chunk_size : int
+        Word count of the chunks.
+    min_chunk_size : int
+        Chunks with less words will be discarded.
+    """
+
+    text_chunks = list()
+    chunk_start_times = list()
+    chunk_end_times = list()
+
+    if subtitle_file[-4:] == ".vtt":
+        # Subtitle file is in vtt format.
+
+        words, word_end_times = get_words_with_end_times(subtitle_file)
+
+        # Generate text chunks of desired size
+        text_chunks, chunk_start_times, chunk_end_times = generate_text_chunks_from_word_list(words, word_end_times,
+                                                                                              chunk_size)
+
+    # Discard last chunk if too small
+    if len(text_chunks[-1]) < min_chunk_size:
+        text_chunks.pop()
+        chunk_start_times.pop()
+        chunk_end_times.pop()
+
+    return text_chunks, chunk_start_times, chunk_end_times
+
+
 def get_words_with_end_times(subtitle_file):
     """Get all words from a subtitle file (vtt format) with their corresponding end timestamps
 
@@ -55,3 +90,27 @@ def get_words_with_end_times(subtitle_file):
             print("Warning: word count does not match times count")
 
         return words, word_end_times
+
+
+def generate_text_chunks_from_word_list(words, word_end_times, chunk_size):
+    """Generates text chunks with a start and end timestamp from a list of words.
+
+    """
+
+    text_chunks = list()
+    chunk_start_times = list()
+    chunk_end_times = list()
+
+    for i in range(0, len(words), chunk_size):
+        text_chunks.append(words[i:i + chunk_size])
+
+        # Save start time
+        if len(chunk_end_times) == 0:
+            chunk_start_times.append("00:00:00.000")
+        else:
+            chunk_start_times.append(chunk_end_times[-1])
+
+        # Save end time
+        chunk_end_times.append(word_end_times[min(i + chunk_size, len(word_end_times) - 1)])
+
+    return text_chunks, chunk_start_times, chunk_end_times
