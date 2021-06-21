@@ -12,6 +12,10 @@ def generate_text_chunks(subtitle_file, chunk_size, min_chunk_size):
         Word count of the chunks.
     min_chunk_size : int
         Chunks with less words will be discarded.
+
+    Returns
+    -------
+    List of text chunks which are lists of words, Lists of corresponding start and end timestamps for each chunk.
     """
 
     text_chunks = list()
@@ -26,6 +30,10 @@ def generate_text_chunks(subtitle_file, chunk_size, min_chunk_size):
         # Generate text chunks of desired size
         text_chunks, chunk_start_times, chunk_end_times = generate_text_chunks_from_word_list(words, word_end_times,
                                                                                               chunk_size)
+    elif subtitle_file[-4:] == ".txt":
+        # Subtitle file is a plain text.
+        # Possibly approximate timestamps?
+        pass
 
     # Discard last chunk if too small
     if len(text_chunks[-1]) < min_chunk_size:
