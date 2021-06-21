@@ -1,5 +1,28 @@
 import re
 
+BTC_FILTER = ["bitcoin", "btc"]
+ETH_FILTER = ["ethereum", "eth"]
+DOGE_FILTER = ["doge", "dogecoin"]
+CRYPTO_SPACE_FILTER = ["Crypto",
+                       "Cryptocurrency",
+                       "Blockchain",
+                       "Miner",
+                       "Mining",
+                       "Wallet",
+                       "Ether",
+                       "Defi",
+                       "Exchange",
+                       "Value",
+                       "Decentralized",
+                       "Decentralization"]
+
+DEFAULT_TEXT_CHUNK_LABELS = {
+    "DOGE": DOGE_FILTER,
+    "ETH": ETH_FILTER,
+    "BTC": BTC_FILTER,
+    "crypto_space": CRYPTO_SPACE_FILTER
+}
+
 
 def generate_text_chunks(subtitle_file, chunk_size, min_chunk_size):
     """Generates text chunks with start and end timestamps from a subtitle file.
@@ -42,6 +65,10 @@ def generate_text_chunks(subtitle_file, chunk_size, min_chunk_size):
         chunk_end_times.pop()
 
     return text_chunks, chunk_start_times, chunk_end_times
+
+
+def auto_label_text_chunk_default_labels(text):
+    auto_label_text_chunk(text, DEFAULT_TEXT_CHUNK_LABELS)
 
 
 def auto_label_text_chunk(text, labels):
