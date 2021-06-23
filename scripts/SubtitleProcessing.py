@@ -68,7 +68,7 @@ def generate_text_chunks(subtitle_file, chunk_size, min_chunk_size):
 
 
 def auto_label_text_chunk_default_labels(text):
-    auto_label_text_chunk(text, DEFAULT_TEXT_CHUNK_LABELS)
+    return auto_label_text_chunk(text, DEFAULT_TEXT_CHUNK_LABELS)
 
 
 def auto_label_text_chunk(text, labels):
