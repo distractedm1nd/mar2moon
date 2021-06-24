@@ -1,7 +1,7 @@
 import re
 
 BTC_FILTER = ["bitcoin", "btc"]
-ETH_FILTER = ["ethereum", "eth"]
+ETH_FILTER = ["ethereum", " eth "]
 DOGE_FILTER = ["doge", "dogecoin"]
 CRYPTO_SPACE_FILTER = ["Crypto",
                        "Cryptocurrency",
