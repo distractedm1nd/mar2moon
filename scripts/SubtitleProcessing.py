@@ -50,6 +50,10 @@ def generate_text_chunks(subtitle_file, chunk_size, min_chunk_size):
 
         words, word_end_times = get_words_with_end_times(subtitle_file)
 
+        if words is None:
+            print("Could not generate text chunks for file: " + subtitle_file)
+            return None, None, None
+
         # Generate text chunks of desired size
         text_chunks, chunk_start_times, chunk_end_times = generate_text_chunks_from_word_list(words, word_end_times,
                                                                                               chunk_size)
@@ -96,18 +100,23 @@ def auto_label_text_chunk(text, labels):
     return "None"
 
 
-def get_words_with_end_times(subtitle_file):
+def get_words_with_end_times(subtitle_file_path):
     """Get all words from a subtitle file (vtt format) with their corresponding end timestamps
 
     """
 
-    with open(subtitle_file) as subtitle_file:
+    with open(subtitle_file_path) as subtitle_file:
 
         # Remove first 4 lines (containing meta information)
         for j in range(0, 4):
             subtitle_file.readline()
 
         text = subtitle_file.read()
+
+        # Check if the subtitle file supports individual word times
+        if text.find("<c>") == -1:
+            print("Individual word times are not supported for file: " + subtitle_file_path)
+            return None, None
 
         chunks = text.split(" \n\n")  # split into chunks for easier data processing
 
