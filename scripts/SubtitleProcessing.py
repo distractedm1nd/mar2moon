@@ -127,6 +127,9 @@ def get_words_with_end_times(subtitle_file_path):
             chunk_lines = chunk.split("\n")
             words_line = chunk_lines[2]
 
+            words_in_chunk = []
+            word_end_times_in_chunk = []
+
             first_word_end_index = words_line.find("<")
             if first_word_end_index != -1:
                 first_word = words_line[
