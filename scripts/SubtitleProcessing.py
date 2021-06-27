@@ -180,6 +180,6 @@ def generate_text_chunks_from_word_list(words, word_end_times, chunk_size):
             chunk_start_times.append(chunk_end_times[-1])
 
         # Save end time
-        chunk_end_times.append(word_end_times[min(i + chunk_size, len(word_end_times) - 1)])
+        chunk_end_times.append(word_end_times[min((i + chunk_size)-1, len(word_end_times) - 1)])
 
     return text_chunks, chunk_start_times, chunk_end_times
