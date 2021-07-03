@@ -12,6 +12,7 @@ def extract_audio_clip(audio_file, output_clip_name, output_folder, start_time, 
     output_file = output_folder + "/" + output_clip_name
 
     audio_file = audio_file.replace("/", "\\")
+    # audio_file = "\"" + audio_file + "\""
     output_file = output_file.replace("/", "\\")
 
     subprocess.call([
