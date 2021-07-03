@@ -56,3 +56,38 @@ def get_audio_clip_name_by_data_row(row, overwrite_podcast_title="", correct_fil
     clip_name = podcast_title + "_" + start_string + "_" + end_string + ".wav"
 
     return clip_name, podcast_title
+
+
+def get_audio_features(audio_file, praat_path="praat.exe", praat_script="Praat\\GetAudioFeatures.praat"):
+    """Extracts audio features from an audio file.
+
+    Data from praat script:
+    pitch min, pitch max, pitch 0.05 quantile, pitch 0.95 quantile, pitch range 0.05 to 0.95 quantile,
+    pitch std. deviation, pitch mean, pitch median, jitter, shimmer, hammarberg index
+
+    Parameters
+    ----------
+    audio_file : str
+        Audio file to extract audio features from.
+    praat_path : str
+        Path to the Praat installation.
+    praat_script : str
+        The Praat script used to extract the audio features.
+    """
+
+    result = subprocess.run([praat_path, "--run", praat_script, audio_file], capture_output=True)
+    result_str = result.stdout.decode("utf-16")
+    result_str = result_str[:-2]
+    # print(repr(result_str))
+    result_arr = result_str.split(",")
+    return result_arr
+
+
+def get_audio_features_for_data_row(row, praat_path, clip_folder):
+    """Extracts audio features for a row in the labelled sentiment data set.
+
+    """
+
+    clip_file = clip_folder + "\\" + get_audio_clip_name_by_data_row(row, correct_file_extension=True)[0]
+    return get_audio_features(clip_file, praat_path)
+
