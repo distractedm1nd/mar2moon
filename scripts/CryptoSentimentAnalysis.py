@@ -13,19 +13,19 @@ class SentimentAnalysisPipeline:
     DEFAULT_AUDIO_FILES_FOLDER = "data\\downloaded_audio_files"
     DEFAULT_CLIP_FOLDER = "data\\extracted_clips"
     DEFAULT_WAV2VEC_REPOSITORY = "distractedm1nd/wav2vec-en-finetuned-on-cryptocurrency"
-    DEFAULT_CLIP_LENGTH = 12  # in seconds
+    DEFAULT_CLIP_LENGTH = 15  # in seconds
     DEFAULT_COINS = ["BTC", "ETH", "DOGE"]
     DEFAULT_PRAAT_PATH = "praat.exe",
-    DEFAULT_PRAAT_SCRIPT = "praat\\GetAudioFeatures.praat",
+    DEFAULT_PRAAT_SCRIPT = "praat\\GetAudioFeatures.praat"
     DEFAULT_FILE_NAME_SEPARATOR = "-sep-"
 
     def __init__(self,
-                 coins=["BTC", "ETH", "DOGE"],
+                 coins=DEFAULT_COINS,
                  audio_files_folder=DEFAULT_AUDIO_FILES_FOLDER,
                  clips_folder=DEFAULT_CLIP_FOLDER,
                  clip_length=DEFAULT_CLIP_LENGTH,
                  praat_path=DEFAULT_PRAAT_PATH,
-                 praat_script=DEFAULT_PRAAT_PATH,
+                 praat_script=DEFAULT_PRAAT_SCRIPT,
                  separator=DEFAULT_FILE_NAME_SEPARATOR,
                  wav2vec_model=None,
                  wav2vec_processor=None,
@@ -140,7 +140,9 @@ class SentimentAnalysisPipeline:
         # print(df)
 
         # Speech to text
-        df["Text"] = df["File_Name"].apply(lambda x: self.get_wav2vec_output(x), axis=1)
+        df["Text"] = df["File_Name"].apply(lambda x: self.get_wav2vec_output(x))
+
+        print("Text extracted")
 
         # Label coin
 
@@ -149,33 +151,13 @@ class SentimentAnalysisPipeline:
         # Extract audio features
 
         # Get audio features for each clip.
-        audio_features = df.apply(
-            lambda x: AudioFeatureExtraction.get_audio_features(self.clips_folder + "\\" + x["File_Name"],
-                                                                self.praat_path,
-                                                                self.praat_script), axis=1)
-
-        # Make sure audio_features has the same in every entry.
-        none_list = [None] * 11
-        audio_features = audio_features.apply(lambda x: none_list if len(x) == 1 else x)
-
-        # Create a data frame with audio features.
-        df_audio_features = pd.DataFrame(np.vstack(audio_features), columns=["Pitch_Min",
-                                                                             "Pitch_Max",
-                                                                             "Pitch_05_Quantile",
-                                                                             "Pitch_95_Quantile",
-                                                                             "Pitch_Range",
-                                                                             "pitch stdev",
-                                                                             "Pitch_Mean",
-                                                                             "Pitch_Median",
-                                                                             "Jitter",
-                                                                             "Shimmer",
-                                                                             "Hammarberg_Index"])
+        df_audio_features = self.get_audio_features_df(df)
 
         df = pd.concat([df, df_audio_features], axis=1)
 
         print("Audio features extracted")
 
-        # print(df)
+        print(df)
 
         # Label sentiment
 
@@ -185,7 +167,9 @@ class SentimentAnalysisPipeline:
         #TODO: Make parameter use_cuda + batchsize for speedup, but it requires that all audio files are already loaded into the df
 
         # Reads audio file
-        audio, sampling_rate = sf.read(filename)
+        file = self.clips_folder + "\\" + filename
+        file = file.replace("\\", "/")
+        audio, sampling_rate = sf.read(file)
         assert(sampling_rate == 16_000, "Sampling rate was not 16k.")
 
         # Batch size 1
@@ -238,7 +222,7 @@ class SentimentAnalysisPipeline:
             "-ac", "1",  # stereo -> mono
             "-f", "segment",
             "-segment_time", str(self.clip_length),
-            "-c", "copy",
+            #"-c", "copy",
             output_file])
 
     def reconstruct_filename_from_metadata(self, row):
@@ -250,3 +234,47 @@ class SentimentAnalysisPipeline:
         """
 
         return row["Author"] + self.separator + str(row["Date"]) + self.separator + row["Title"] + ".wav"
+
+    def get_audio_features_df(self, df):
+        """
+        Generates a data frame with audio features for input df.
+
+        :param df: Input data.
+        :return: Data frame containing audio features.
+        """
+
+        audio_features = df["File_Name"].apply(
+            lambda x: AudioFeatureExtraction.get_audio_features(self.clips_folder + "\\" + x,
+                                                                self.praat_path,
+                                                                self.praat_script))
+
+        # Make sure audio_features has the same length in every entry.
+        none_list = [None] * 11
+        audio_features = audio_features.apply(lambda x: none_list if len(x) == 1 else x)
+
+        # Create a data frame with audio features.
+        df_audio_features = pd.DataFrame(np.vstack(audio_features), columns=["Pitch_Min",
+                                                                             "Pitch_Max",
+                                                                             "Pitch_05_Quantile",
+                                                                             "Pitch_95_Quantile",
+                                                                             "Pitch_Range",
+                                                                             "pitch stdev",
+                                                                             "Pitch_Mean",
+                                                                             "Pitch_Median",
+                                                                             "Jitter",
+                                                                             "Shimmer",
+                                                                             "Hammarberg_Index"])
+
+        return df_audio_features
+
+    def get_audio_features_df_parallel(self, df):
+        """
+        Generates a data frame with audio features for input df. Runs parallel for speed
+
+        :param df:
+        :return:
+        """
+
+        # Todo parallel library
+
+        return self.get_audio_features_df(df)

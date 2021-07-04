@@ -4,7 +4,7 @@ from os import listdir
 import subprocess
 
 
-def download_playlist(url, output_folder="", start_date=None, end_date=None, max_videos=0):
+def download_playlist(url, output_folder="", start_date=None, end_date=None, max_videos=0, file_name_separator="-sep-"):
     """Downloads videos from a Youtube playlist.
 
     Parameters
@@ -33,7 +33,8 @@ def download_playlist(url, output_folder="", start_date=None, end_date=None, max
     if max_videos > 0:
         calls.append(f"--max-downloads {max_videos}")
 
-    file_name = output_folder + "/" + "%(channel)s_%(upload_date)s_%(title)s.%(ext)s"
+    file_name = output_folder + "/" + "%(channel)s" + file_name_separator + "%(upload_date)s" + file_name_separator +\
+                                      "%(title)s" + file_name_separator + "%(view_count)s" + ".%(ext)s"
     calls.append("-o " + file_name)
 
     calls.append(url)
