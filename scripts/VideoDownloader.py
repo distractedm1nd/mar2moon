@@ -42,8 +42,10 @@ def download_playlist(url, output_folder="", start_date=None, end_date=None, max
 
 
 def ensure_correct_naming(folder_path):
-    """Renames (downloaded) files to remove problematic characters.
+    """Renames (downloaded) files to avoid problematic characters.
 
+    This function is executed after downloading videos to ensure correct naming of the files.
+    It can also be used to convert names of previously downloaded files.
     """
 
     all_file_names = listdir(folder_path)
