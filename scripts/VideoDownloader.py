@@ -33,9 +33,11 @@ def download_playlist(url, output_folder="", start_date=None, end_date=None, max
     if max_videos > 0:
         calls.append(f"--max-downloads {max_videos}")
 
-    file_name = output_folder + "/" + "%(channel)s" + file_name_separator + "%(upload_date)s" + file_name_separator +\
-                                      "%(title)s" + file_name_separator + "%(view_count)s" + ".%(ext)s"
-    calls.append("-o " + file_name)
+    file_name = "%(channel)s" + file_name_separator + "%(upload_date)s" + file_name_separator + \
+                "%(title)s" + file_name_separator + "%(view_count)s" + ".%(ext)s"
+    output_file = os.path.join(output_folder, file_name)
+
+    calls.append("-o " + output_file)
 
     calls.append(url)
 
@@ -60,4 +62,3 @@ def ensure_correct_naming(folder_path):
             new_file_name = os.path.join(folder_path, new_file_name)
 
             os.rename(old_file_name, new_file_name)
-

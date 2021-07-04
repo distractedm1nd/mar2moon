@@ -4,6 +4,7 @@ import pandas as pd
 import torch
 import soundfile as sf
 from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
+import os
 from os import listdir
 import VideoDownloader
 import AudioFeatureExtraction
@@ -11,13 +12,13 @@ import SubtitleProcessing
 
 
 class SentimentAnalysisPipeline:
-    DEFAULT_AUDIO_FILES_FOLDER = "data\\downloaded_audio_files"
-    DEFAULT_CLIP_FOLDER = "data\\extracted_clips"
+    DEFAULT_AUDIO_FILES_FOLDER = os.path.join("data", "downloaded_audio_files")
+    DEFAULT_CLIP_FOLDER = os.path.join("data", "extracted_clips")
     DEFAULT_WAV2VEC_REPOSITORY = "distractedm1nd/wav2vec-en-finetuned-on-cryptocurrency"
     DEFAULT_CLIP_LENGTH = 15  # in seconds
     DEFAULT_COINS = ["BTC", "ETH", "DOGE"]
     DEFAULT_PRAAT_PATH = "praat.exe",
-    DEFAULT_PRAAT_SCRIPT = "praat\\GetAudioFeatures.praat"
+    DEFAULT_PRAAT_SCRIPT = os.path.join("praat", "GetAudioFeatures.praat")
     DEFAULT_FILE_NAME_SEPARATOR = "-sep-"
 
     BTC_FILTER = ["bitcoin", "btc"]
@@ -178,8 +179,7 @@ class SentimentAnalysisPipeline:
         # TODO: Make parameter use_cuda + batchsize for speedup, but it requires that all audio files are already loaded into the df
 
         # Reads audio file
-        file = self.clips_folder + "\\" + filename
-        file = file.replace("\\", "/")
+        file = os.path.join(self.clips_folder, filename)
         audio, sampling_rate = sf.read(file)
         assert (sampling_rate == 16_000, "Sampling rate was not 16k.")
 
@@ -211,7 +211,8 @@ class SentimentAnalysisPipeline:
 
     def extract_clip_for_video_info_data_frame_row(self, row):
         audio_file_name = self.reconstruct_filename_from_metadata(row)
-        self.extract_audio_clips_equal_length(self.audio_files_folder + "\\" + audio_file_name, audio_file_name[:-4])
+        self.extract_audio_clips_equal_length(os.path.join(self.audio_files_folder, audio_file_name),
+                                              audio_file_name[:-4])
 
     def extract_audio_clips_equal_length(self, audio_file, output_clip_base_name):
         """
@@ -221,11 +222,9 @@ class SentimentAnalysisPipeline:
         :param output_clip_base_name: Base name of the extracted audio clips.
         :return:
         """
-        # TODO: use os.path.join() when building filenames so it also works on linux+mac
-        output_file = self.clips_folder + "\\" + output_clip_base_name + self.separator + "%04d.wav"
 
-        audio_file = audio_file.replace("/", "\\")
-        output_file = output_file.replace("/", "\\")
+        output_file_name = output_clip_base_name + self.separator + "%04d.wav"
+        output_file = os.path.join(self.clips_folder, output_file_name)
 
         subprocess.call([
             "ffmpeg",
@@ -261,7 +260,7 @@ class SentimentAnalysisPipeline:
         # Get audio features for each clip (if correct coin label).
         audio_features = df.apply(
             lambda x: none_list if x["Coin"] not in coins
-            else AudioFeatureExtraction.get_audio_features(self.clips_folder + "\\" + x["File_Name"],
+            else AudioFeatureExtraction.get_audio_features(os.path.join(self.clips_folder, x["File_Name"]),
                                                            self.praat_path,
                                                            self.praat_script), axis=1)
 

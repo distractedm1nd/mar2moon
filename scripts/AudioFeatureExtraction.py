@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import re
 import subprocess
+import os
 
 
 def extract_audio_clip(audio_file, output_clip_name, output_folder, start_time, end_time):
@@ -9,10 +10,10 @@ def extract_audio_clip(audio_file, output_clip_name, output_folder, start_time, 
 
     """
 
-    output_file = output_folder + "/" + output_clip_name
+    output_file = os.path.join(output_folder, output_clip_name)
 
-    audio_file = audio_file.replace("/", "\\")
-    output_file = output_file.replace("/", "\\")
+    # audio_file = audio_file.replace("/", "\\")
+    # output_file = output_file.replace("/", "\\")
 
     subprocess.call([
         "ffmpeg",
@@ -34,7 +35,7 @@ def extract_audio_clip_from_data_row(row, audio_files_folder, output_folder, ove
 
     output_clip_name, podcast_title = get_audio_clip_name_by_data_row(row, overwrite_podcast_title,
                                                                       correct_file_extension)
-    audio_file = audio_files_folder + "/" + podcast_title + ".wav"
+    audio_file = os.path.join(audio_files_folder, podcast_title + ".wav")
 
     extract_audio_clip(audio_file, output_clip_name, output_folder, row["Start_Time"], row["End_Time"])
 
@@ -88,6 +89,6 @@ def get_audio_features_for_data_row(row, praat_path, clip_folder):
 
     """
 
-    clip_file = clip_folder + "\\" + get_audio_clip_name_by_data_row(row, correct_file_extension=True)[0]
+    clip_file = os.path.join(clip_folder, get_audio_clip_name_by_data_row(row, correct_file_extension=True)[0])
     return get_audio_features(clip_file, praat_path)
 
