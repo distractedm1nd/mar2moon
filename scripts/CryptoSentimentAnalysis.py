@@ -112,29 +112,25 @@ class SentimentAnalysisPipeline:
 
         # Save video info in a data frame.
         df_video_files_info = pd.DataFrame(video_files_info, columns=["Author", "Date", "Title"])
-        # Reorder data frame
+        # Reorder data frame and convert types
         df_video_files_info = df_video_files_info[["Date", "Author", "Title"]]
         df_video_files_info["Date"] = df_video_files_info["Date"].astype("int")
         # print(df_video_files_info)
 
         # Only keep entries in the user specified date range.
-        if start_date is not None:
-            start_date_int = int(start_date)
-            df_video_files_info = df_video_files_info[df_video_files_info["Date"] >= start_date_int]
-        if end_date is not None:
-            end_date_int = int(end_date)
-            df_video_files_info = df_video_files_info[df_video_files_info["Date"] <= end_date_int]
+        df_video_files_info = self.filter_df_by_date(df_video_files_info, start_date, end_date)
         # print(df_video_files_info)
 
-        # Extract audio clips
+        # Extract audio clips.
 
         if clip_extraction_method == "ffmpeg":
             self.extract_clips_from_audio_files(df_video_info=df_video_files_info)
 
             print("Clips extracted")
 
-        # Start building the final data set
+        # Start building the final data set.
 
+        # Collect clips from folder.
         all_file_names = listdir(self.clips_folder)
 
         clip_files_info = []
@@ -146,8 +142,12 @@ class SentimentAnalysisPipeline:
 
         # Save clip info in a data frame.
         df = pd.DataFrame(clip_files_info, columns=["Author", "Date", "Title", "Clip_Id", "File_Name"])
-        # Reorder data frame
+        # Reorder data frame and convert types
         df = df[["Date", "Author", "Title", "Clip_Id", "File_Name"]]
+        df["Date"] = df["Date"].astype("int")
+
+        # Only keep entries in the user specified date range.
+        df = self.filter_df_by_date(df, start_date, end_date)
 
         # Speech to text
         df["Text"] = df["File_Name"].apply(lambda x: self.get_wav2vec_output(x))
@@ -160,19 +160,19 @@ class SentimentAnalysisPipeline:
         print("Text labelled with coins")
 
         # Extract audio features
-
-        # Get audio features for each clip.
         df_audio_features = self.get_audio_features_df(df)
         df = pd.concat([df, df_audio_features], axis=1)
 
         print("Audio features extracted")
 
-        print(df)
-        df.to_csv("get_sentiments_output.csv")
-
         # Label sentiment
+        df["Sentiment"] = "neutral"  # Todo
+
+        # print(df)
+        # df.to_csv("get_sentiments_output.csv")
 
         # Return subset of the data frame
+        return df[["Date", "Author", "Title", "Coin", "Sentiment"]]
 
     def get_wav2vec_output(self, filename):
         # TODO: Make parameter use_cuda + batchsize for speedup, but it requires that all audio files are already loaded into the df
@@ -258,6 +258,7 @@ class SentimentAnalysisPipeline:
 
         none_list = [None] * 11
 
+        # Get audio features for each clip (if correct coin label).
         audio_features = df.apply(
             lambda x: none_list if x["Coin"] not in coins
             else AudioFeatureExtraction.get_audio_features(self.clips_folder + "\\" + x["File_Name"],
@@ -291,3 +292,13 @@ class SentimentAnalysisPipeline:
         # Todo parallel library
 
         return self.get_audio_features_df(df, coins)
+
+    def filter_df_by_date(self, df, start_date=None, end_date=None):
+        if start_date is not None:
+            start_date_int = int(start_date)
+            df = df[df["Date"] >= start_date_int]
+        if end_date is not None:
+            end_date_int = int(end_date)
+            df = df[df["Date"] <= end_date_int]
+
+        return df
