@@ -1,6 +1,9 @@
 import subprocess
 import numpy as np
 import pandas as pd
+import torch
+import soundfile as sf
+from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
 from os import listdir
 import VideoDownloader
 import AudioFeatureExtraction
@@ -24,6 +27,7 @@ def get_sentiments(video_urls=[],
                    praat_path="praat.exe",
                    praat_script="praat\\GetAudioFeatures.praat",
                    wav2vec_model=None,
+                   wav2vec_processor=None,
                    sentiment_model=None,
                    use_audio_features=True):
     """
@@ -42,10 +46,17 @@ def get_sentiments(video_urls=[],
     :param praat_script: Path to the Praat installation.
     :param praat_path: The Praat script used for the audio feature extraction.
     :param wav2vec_model: Trained speech to text model.
+    :param wav2vec_processor: Trained wav2vec processor.
     :param sentiment_model: Trained sentiment analysis model.
     :param use_audio_features: Use audio features for sentiment labelling.
     :return: Returns a data frame with the following structure: (Date, Author, Title, Coin, Sentiment)
     """
+
+    if wav2vec_model == None or wav2vec_processor == None:
+        print("Downloading standard Wav2Vec model and processor")
+
+        processor = Wav2Vec2Processor.from_pretrained("distractedm1nd/wav2vec-en-finetuned-on-cryptocurrency")
+        model = Wav2Vec2ForCTC.from_pretrained("distractedm1nd/wav2vec-en-finetuned-on-cryptocurrency")
 
     # Download audio.
     if len(video_urls) > 0 or len(playlist_urls) > 0:
@@ -112,7 +123,7 @@ def get_sentiments(video_urls=[],
     # print(df)
 
     # Speech to text
-    df["Text"] = "wav2vec output"  # Todo
+    df["Text"] = df["File_Name"].apply(lambda x: get_wav2vec_output(x, wav2vec_model, wav2vec_processor), axis=1)
 
     # Label coin
 
@@ -153,6 +164,19 @@ def get_sentiments(video_urls=[],
 
     # Return subset of the data frame
 
+
+def get_wav2vec_output(filename, model, processor):
+    audio, sampling_rate = sf.read(filename)
+
+    # Batch size 1
+    input_values = processor(audio, return_tensors="pt", padding="longest", sampling_rate=sampling_rate).input_values
+
+    # retrieve logits
+    logits = model(input_values).logits
+
+    # take argmax and decode
+    predicted_ids = torch.argmax(logits, dim=-1)
+    return processor.tokenizer.batch_decode(predicted_ids)[0].lower()
 
 def download_audio_files(video_urls=[],
                          playlist_urls=[],
