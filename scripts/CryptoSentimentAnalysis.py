@@ -202,6 +202,8 @@ class SentimentAnalysisPipeline:
         vectorized = np.asarray(vectorized_matrix.todense())
 
         if self.use_audio_features:
+            df.dropna(subset=["Pitch_Median"], inplace=True)
+
             audio_feature_array = df[
                 ["Pitch_05_Quantile", "Pitch_95_Quantile", "Pitch_Range", "Pitch_Median", "Pitch_Stdev", "Jitter",
                  "Shimmer", "Hammarberg_Index"]].to_numpy()
