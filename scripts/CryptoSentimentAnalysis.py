@@ -94,7 +94,7 @@ class SentimentAnalysisPipeline:
         :param playlist_urls: List of playlist URLs to download.
         :param start_date: Do not use videos/audios before this date. Format: YYYYMMDD.
         :param end_date: Do not use videos/audios after this date. Format: YYYYMMDD.
-        :param clip_extraction_method: Method used to extract clips from audio files. ffmpeg or wav2vec.
+        :param clip_extraction_method: Method used to extract clips from audio files. ffmpeg or wav2vec (wip).
         :param max_downloads_per_playlist: Stop downloading videos from a playlist after max downloads reached.
         :return: Returns a data frame with the following structure: (Date, Author, Title, Coin, Sentiment)
         """
@@ -175,7 +175,7 @@ class SentimentAnalysisPipeline:
 
         print("Audio features extracted")
 
-        df.to_csv("get_sentiments_output.csv")
+        #df.to_csv("get_sentiments_output.csv")
 
         # Label sentiment
         df["Sentiment"] = self.predict_sentiments(df)
