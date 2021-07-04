@@ -174,6 +174,8 @@ class SentimentAnalysisPipeline:
         # Label sentiment
         df["Sentiment"] = "neutral"  # Todo
 
+        print("Sentiments labelling complete")
+
         # print(df)
         # df.to_csv("get_sentiments_output.csv")
 
@@ -295,7 +297,7 @@ class SentimentAnalysisPipeline:
                                                                              "Pitch_05_Quantile",
                                                                              "Pitch_95_Quantile",
                                                                              "Pitch_Range",
-                                                                             "pitch stdev",
+                                                                             "Pitch_Stdev",
                                                                              "Pitch_Mean",
                                                                              "Pitch_Median",
                                                                              "Jitter",
