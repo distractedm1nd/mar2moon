@@ -20,6 +20,7 @@ class SentimentAnalysisPipeline:
     DEFAULT_PRAAT_PATH = "praat.exe",
     DEFAULT_PRAAT_SCRIPT = os.path.join("praat", "GetAudioFeatures.praat")
     DEFAULT_FILE_NAME_SEPARATOR = "-sep-"
+    DEFAULT_MAX_DOWNLOADS_PER_PLAYLIST = 50
 
     BTC_FILTER = ["bitcoin", "btc"]
     ETH_FILTER = ["ethereum", " eth "]
@@ -79,7 +80,8 @@ class SentimentAnalysisPipeline:
             self.wav2vec_model = Wav2Vec2ForCTC.from_pretrained(self.DEFAULT_WAV2VEC_REPOSITORY)
 
     def get_sentiments(self, video_urls=[], playlist_urls=[], start_date=None, end_date=None,
-                       clip_extraction_method="ffmpeg"):
+                       clip_extraction_method="ffmpeg",
+                       max_downloads_per_playlist=DEFAULT_MAX_DOWNLOADS_PER_PLAYLIST):
         """
         Gets sentiments for specified coins from audio/video files.
 
@@ -88,6 +90,8 @@ class SentimentAnalysisPipeline:
         :param playlist_urls: List of playlist URLs to download.
         :param start_date: Do not use videos/audios before this date. Format: YYYYMMDD.
         :param end_date: Do not use videos/audios after this date. Format: YYYYMMDD.
+        :param clip_extraction_method: Method used to extract clips from audio files. ffmpeg or wav2vec.
+        :param max_downloads_per_playlist: Stop downloading videos from a playlist after max downloads reached.
         :return: Returns a data frame with the following structure: (Date, Author, Title, Coin, Sentiment)
         """
 
@@ -96,7 +100,8 @@ class SentimentAnalysisPipeline:
             self.download_audio_files(video_urls=video_urls,
                                       playlist_urls=playlist_urls,
                                       start_date=start_date,
-                                      end_date=end_date)
+                                      end_date=end_date,
+                                      max_downloads=max_downloads_per_playlist)
 
             print("Download finished")
 
@@ -194,7 +199,8 @@ class SentimentAnalysisPipeline:
         predicted_ids = torch.argmax(logits, dim=-1)
         return self.wav2vec_processor.batch_decode(predicted_ids)[0].lower()
 
-    def download_audio_files(self, video_urls=[], playlist_urls=[], start_date=None, end_date=None):
+    def download_audio_files(self, video_urls=[], playlist_urls=[], start_date=None, end_date=None,
+                             max_downloads=DEFAULT_MAX_DOWNLOADS_PER_PLAYLIST):
         for video_url in video_urls:
             VideoDownloader.download_playlist(video_url,
                                               output_folder=self.audio_files_folder,
@@ -208,6 +214,7 @@ class SentimentAnalysisPipeline:
                                               output_folder=self.audio_files_folder,
                                               start_date=start_date,
                                               end_date=end_date,
+                                              max_videos=max_downloads,
                                               file_name_separator=self.separator,
                                               extract_subtitles=False)
 
