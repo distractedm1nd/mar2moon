@@ -195,7 +195,19 @@ class SentimentAnalysisPipeline:
         return self.wav2vec_processor.batch_decode(predicted_ids)[0].lower()
 
     def download_audio_files(self, video_urls=[], playlist_urls=[], start_date=None, end_date=None):
-        # Download
+        for video_url in video_urls:
+            VideoDownloader.download_playlist(video_url,
+                                              output_folder=self.audio_files_folder,
+                                              start_date=start_date,
+                                              end_date=end_date,
+                                              file_name_separator=self.separator)
+
+        for playlist_url in playlist_urls:
+            VideoDownloader.download_playlist(playlist_url,
+                                              output_folder=self.audio_files_folder,
+                                              start_date=start_date,
+                                              end_date=end_date,
+                                              file_name_separator=self.separator)
 
         VideoDownloader.ensure_correct_naming(self.audio_files_folder)
 
