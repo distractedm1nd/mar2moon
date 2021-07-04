@@ -4,6 +4,8 @@ import pandas as pd
 import torch
 import soundfile as sf
 from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
+from sklearn.feature_extraction.text import TfidfVectorizer
+import pickle
 import os
 from os import listdir
 import VideoDownloader
@@ -42,6 +44,7 @@ class SentimentAnalysisPipeline:
                  wav2vec_model=None,
                  wav2vec_processor=None,
                  sentiment_model=None,
+                 sentiment_vectorizer=None,
                  use_audio_features=True):
 
         """
@@ -72,6 +75,7 @@ class SentimentAnalysisPipeline:
         self.separator = separator
         self.wav2vec_processor = wav2vec_processor
         self.sentiment_model = sentiment_model
+        self.sentiment_vectorizer = sentiment_vectorizer
         self.use_audio_features = use_audio_features
 
         if wav2vec_model is None or wav2vec_processor is None:
@@ -171,16 +175,52 @@ class SentimentAnalysisPipeline:
 
         print("Audio features extracted")
 
+        df.to_csv("get_sentiments_output.csv")
+
         # Label sentiment
-        df["Sentiment"] = "neutral"  # Todo
+        df["Sentiment"] = self.predict_sentiments(df)
 
         print("Sentiments labelling complete")
 
         # print(df)
-        # df.to_csv("get_sentiments_output.csv")
 
         # Return subset of the data frame
         return df[["Date", "Author", "Title", "Coin", "Sentiment"]]
+
+    def predict_sentiments(self, df):
+        df.dropna(subset=["Text"], inplace=True)
+        coin_list = ["BTC", "ETH", "DOGE"]
+        df = df[df["Coin"].isin(coin_list)]
+
+        # Load Tfidf vectorizer
+        with open(self.sentiment_vectorizer, 'rb') as sentiment_vect_file:
+            tfidf_vectorizer = pickle.load(
+                sentiment_vect_file)
+
+        vectorized_matrix = tfidf_vectorizer.transform(df["Text"])
+        # convert the vectorized_matrix to numpy array
+        vectorized = np.asarray(vectorized_matrix.todense())
+
+        if self.use_audio_features:
+            audio_feature_array = df[
+                ["Pitch_05_Quantile", "Pitch_95_Quantile", "Pitch_Range", "Pitch_Median", "Pitch_Stdev", "Jitter",
+                 "Shimmer", "Hammarberg_Index"]].to_numpy()
+
+            # Concatenate the array of features with the converted texts to create the input for our model
+            final_input = np.concatenate((vectorized, audio_feature_array), axis=1)
+        else:
+            final_input = vectorized
+
+        # Load sentiment model
+        with open(self.sentiment_model, 'rb') as sentiment_model_file:
+            MLPClassifier = pickle.load(
+                sentiment_model_file)
+
+        # Predict sentiments
+        predicted = MLPClassifier.predict(final_input)
+
+        return predicted
+
 
     def get_wav2vec_output(self, filename):
         # TODO: Make parameter use_cuda + batchsize for speedup, but it requires that all audio files are already loaded into the df
