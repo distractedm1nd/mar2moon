@@ -112,9 +112,9 @@ class SentimentAnalysisPipeline:
                 video_files_info.append(video_info)
 
         # Save video info in a data frame.
-        df_video_files_info = pd.DataFrame(video_files_info, columns=["Author", "Date", "Title"])
+        df_video_files_info = pd.DataFrame(video_files_info, columns=["Author", "Date", "Title", "Views"])
         # Reorder data frame and convert types
-        df_video_files_info = df_video_files_info[["Date", "Author", "Title"]]
+        df_video_files_info = df_video_files_info[["Date", "Author", "Title", "Views"]]
         df_video_files_info["Date"] = df_video_files_info["Date"].astype("int")
         # print(df_video_files_info)
 
@@ -142,9 +142,9 @@ class SentimentAnalysisPipeline:
                 clip_files_info.append(clip_info)
 
         # Save clip info in a data frame.
-        df = pd.DataFrame(clip_files_info, columns=["Author", "Date", "Title", "Clip_Id", "File_Name"])
+        df = pd.DataFrame(clip_files_info, columns=["Author", "Date", "Title", "Views", "Clip_Id", "File_Name"])
         # Reorder data frame and convert types
-        df = df[["Date", "Author", "Title", "Clip_Id", "File_Name"]]
+        df = df[["Date", "Author", "Title", "Views", "Clip_Id", "File_Name"]]
         df["Date"] = df["Date"].astype("int")
 
         # Only keep entries in the user specified date range.
@@ -200,14 +200,16 @@ class SentimentAnalysisPipeline:
                                               output_folder=self.audio_files_folder,
                                               start_date=start_date,
                                               end_date=end_date,
-                                              file_name_separator=self.separator)
+                                              file_name_separator=self.separator,
+                                              extract_subtitles=False)
 
         for playlist_url in playlist_urls:
             VideoDownloader.download_playlist(playlist_url,
                                               output_folder=self.audio_files_folder,
                                               start_date=start_date,
                                               end_date=end_date,
-                                              file_name_separator=self.separator)
+                                              file_name_separator=self.separator,
+                                              extract_subtitles=False)
 
         VideoDownloader.ensure_correct_naming(self.audio_files_folder)
 
@@ -256,7 +258,8 @@ class SentimentAnalysisPipeline:
         :return: The file name of the video of the corresponding row.
         """
 
-        return row["Author"] + self.separator + str(row["Date"]) + self.separator + row["Title"] + ".wav"
+        return row["Author"] + self.separator + str(row["Date"]) + self.separator + row["Title"] + self.separator \
+               + row["Views"] + ".wav"
 
     def get_audio_features_df(self, df, coins=DEFAULT_COINS):
         """

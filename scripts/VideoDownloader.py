@@ -4,7 +4,9 @@ from os import listdir
 import subprocess
 
 
-def download_playlist(url, output_folder="", start_date=None, end_date=None, max_videos=0, file_name_separator="-sep-"):
+def download_playlist(url, output_folder="", start_date=None, end_date=None, max_videos=0,
+                      file_name_separator="-sep-",
+                      extract_subtitles=True):
     """Downloads videos from a Youtube playlist.
 
     Parameters
@@ -22,22 +24,28 @@ def download_playlist(url, output_folder="", start_date=None, end_date=None, max
 
     """
 
-    calls = ["youtube-dl", "-x", "--audio-format", "wav",
-             "--write-auto-sub", "--convert-subs=vtt",
-             "--yes-playlist"]
+    calls = ["youtube-dl", "-x", "--audio-format", "wav", "--yes-playlist"]
+
+    if extract_subtitles:
+        calls.append("--write-auto-sub")
+        calls.append("--convert-subs=vtt")
 
     if start_date is not None:
-        calls.append(f"--dateafter {start_date}")
+        calls.append("--dateafter")
+        calls.append(start_date)
     if end_date is not None:
-        calls.append(f"--datebefore {end_date}")
+        calls.append("--datebefore")
+        calls.append(end_date)
     if max_videos > 0:
-        calls.append(f"--max-downloads {max_videos}")
+        calls.append("--max-downloads")
+        calls.append(max_videos)
 
     file_name = "%(channel)s" + file_name_separator + "%(upload_date)s" + file_name_separator + \
                 "%(title)s" + file_name_separator + "%(view_count)s" + ".%(ext)s"
     output_file = os.path.join(output_folder, file_name)
 
-    calls.append("-o " + output_file)
+    calls.append("-o")
+    calls.append(output_file)
 
     calls.append(url)
 
