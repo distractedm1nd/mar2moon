@@ -60,8 +60,6 @@ def get_sentiments(video_urls=[],
     # Collect audio files in a data frame.
 
     # This data frame contains information about the video files to be used in further analysis.
-    df_video_files_info = pd.DataFrame(columns=["Date", "Author", "Title"])
-
     all_file_names = listdir(audio_files_folder)
 
     video_files_info = []
@@ -147,7 +145,7 @@ def get_sentiments(video_urls=[],
 
     df = pd.concat([df, df_audio_features], axis=1)
 
-    print("audio features extracted")
+    print("Audio features extracted")
 
     # print(df)
 
