@@ -1,6 +1,6 @@
 # Mar2Moon :rocket:
 
-Goal: Cryptocurrency price forecasting from speech-driven sentiment analysis
+Goal: Speech-driven sentiment analysis on podcast data
 
 Idea: 
 Many trends have emerged over the past year, partially due to the COVID-19 pandemic: 
