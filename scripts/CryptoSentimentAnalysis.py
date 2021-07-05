@@ -177,6 +177,13 @@ class SentimentAnalysisPipeline:
 
         #df.to_csv("get_sentiments_output.csv")
 
+        df.dropna(subset=["Text"], inplace=True)
+        coin_list = ["BTC", "ETH", "DOGE"]
+        df = df[df["Coin"].isin(coin_list)]
+        if self.use_audio_features:
+            df.dropna(subset=["Pitch_Median"], inplace=True)
+            df = df[df["Pitch_Median"] != "None"]
+
         # Label sentiment
         df["Sentiment"] = self.predict_sentiments(df)
 
@@ -188,9 +195,12 @@ class SentimentAnalysisPipeline:
         return df[["Date", "Author", "Title", "Coin", "Sentiment"]]
 
     def predict_sentiments(self, df):
-        df.dropna(subset=["Text"], inplace=True)
-        coin_list = ["BTC", "ETH", "DOGE"]
-        df = df[df["Coin"].isin(coin_list)]
+
+        if len(df) == 0:
+            return []
+
+        if self.use_audio_features:
+            df = df[df["Pitch_Median"] != "None"]
 
         # Load Tfidf vectorizer
         with open(self.sentiment_vectorizer, 'rb') as sentiment_vect_file:
@@ -202,8 +212,6 @@ class SentimentAnalysisPipeline:
         vectorized = np.asarray(vectorized_matrix.todense())
 
         if self.use_audio_features:
-            df.dropna(subset=["Pitch_Median"], inplace=True)
-
             audio_feature_array = df[
                 ["Pitch_05_Quantile", "Pitch_95_Quantile", "Pitch_Range", "Pitch_Median", "Pitch_Stdev", "Jitter",
                  "Shimmer", "Hammarberg_Index"]].to_numpy()
